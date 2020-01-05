@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_def__types_8h" kind="file" language="C++">
+    <compoundname>Def_types.h</compoundname>
+    <includedby refid="_inclusions_8h" local="yes">src/Inclusions.h</includedby>
+    <invincdepgraph>
+      <node id="10">
+        <label>src/Recombination_event.h</label>
+        <link refid="_recombination__event_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>src/Functions.h</label>
+        <link refid="_functions_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/Libraries.h</label>
+        <link refid="_libraries_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>src/Functions.cpp</label>
+        <link refid="_functions_8cpp_source"/>
+      </node>
+      <node id="14">
+        <label>src/main.cpp</label>
+        <link refid="main_8cpp_source"/>
+      </node>
+      <node id="1">
+        <label>src/Def_types.h</label>
+        <link refid="_def__types_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>src/Hotspot.cpp</label>
+        <link refid="_hotspot_8cpp_source"/>
+      </node>
+      <node id="6">
+        <label>src/Global_variables.h</label>
+        <link refid="_global__variables_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>src/Recombination_event.cpp</label>
+        <link refid="_recombination__event_8cpp_source"/>
+      </node>
+      <node id="4">
+        <label>src/Fragment.h</label>
+        <link refid="_fragment_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>src/Fragment.cpp</label>
+        <link refid="_fragment_8cpp_source"/>
+      </node>
+      <node id="7">
+        <label>src/Global_variables.cpp</label>
+        <link refid="_global__variables_8cpp_source"/>
+      </node>
+      <node id="8">
+        <label>src/Hotspot.h</label>
+        <link refid="_hotspot_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/Inclusions.h</label>
+        <link refid="_inclusions_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_coord__fragments" prot="public">Coord_fragments</innerclass>
+    <innerclass refid="struct_genomic__coordinates" prot="public">Genomic_coordinates</innerclass>
+    <innerclass refid="struct_bed__line" prot="public">Bed_line</innerclass>
+    <innerclass refid="struct_param__settings" prot="public">Param_settings</innerclass>
+    <innerclass refid="struct_list___hash" prot="public">List_Hash</innerclass>
+    <innerclass refid="struct_list__variants" prot="public">List_variants</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_def__types_8h_1aeffe83b3b2cbd05f847793456673f2c2" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Genotype</name>
+        <enumvalue id="_def__types_8h_1aeffe83b3b2cbd05f847793456673f2c2a0eb7e951c71ad8f7ea59d513e8d57747" prot="public">
+          <name>B6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_def__types_8h_1aeffe83b3b2cbd05f847793456673f2c2a4e12176f39ac6a9741e69cce2a909a02" prot="public">
+          <name>CAST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="10" column="1" bodyfile="src/Def_types.h" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="enum" id="_def__types_8h_1a9d5c7f0aeb222a16cdbee7bb3593cd5e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Recomb_product</name>
+        <enumvalue id="_def__types_8h_1a9d5c7f0aeb222a16cdbee7bb3593cd5ea69c66d3c1e936dd7d39824492bb31c57" prot="public">
+          <name>CO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_def__types_8h_1a9d5c7f0aeb222a16cdbee7bb3593cd5eadd63453d19dea509ed6ba126e094febd" prot="public">
+          <name>NCO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="21" column="1" bodyfile="src/Def_types.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_def__types_8h_1aa0bead09d34e02bdec564e49e79fdbce" prot="public" static="no">
+        <type>vector&lt; int &gt;</type>
+        <definition>typedef vector&lt; int &gt; IntVector</definition>
+        <argsstring></argsstring>
+        <name>IntVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="33" column="1" bodyfile="src/Def_types.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_def__types_8h_1aa4bdf3e5412beec136c2be957c4fb382" prot="public" static="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>typedef vector&lt; string &gt; StringVector</definition>
+        <argsstring></argsstring>
+        <name>StringVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="34" column="1" bodyfile="src/Def_types.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_def__types_8h_1ad41d4e02ec6fe1791d7466016ffee6b1" prot="public" static="no">
+        <type>vector&lt; <ref refid="struct_coord__fragments" kindref="compound">Coord_fragments</ref> &gt;</type>
+        <definition>typedef vector&lt; Coord_fragments &gt; Vector_fragments</definition>
+        <argsstring></argsstring>
+        <name>Vector_fragments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="36" column="1" bodyfile="src/Def_types.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_def__types_8h_1aa2d78f6c1bd6c25aeefffe1a4933e6d9" prot="public" static="no">
+        <type>map&lt; string, unsigned int &gt;</type>
+        <definition>typedef map&lt; string, unsigned int &gt; CounterMap</definition>
+        <argsstring></argsstring>
+        <name>CounterMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="39" column="1" bodyfile="src/Def_types.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_def__types_8h_1a64ae8716daf2d22212d096733b47d971" prot="public" static="no" mutable="no">
+        <type>const boost::unordered_map&lt; Genotype, const char *&gt;</type>
+        <definition>const boost::unordered_map&lt; Genotype, const char* &gt; Genot_to_string</definition>
+        <argsstring></argsstring>
+        <name>Genot_to_string</name>
+        <initializer>= map_list_of
+	(B6, &quot;B6&quot;)
+	(CAST, &quot;CAST&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="12" column="1" bodyfile="src/Def_types.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_def__types_8h_1a5260fe39c86851a0df72b27d20acbcbc" prot="public" static="no" mutable="no">
+        <type>const boost::unordered_map&lt; const char *, Genotype &gt;</type>
+        <definition>const boost::unordered_map&lt; const char*, Genotype &gt; String_to_genot</definition>
+        <argsstring></argsstring>
+        <name>String_to_genot</name>
+        <initializer>= map_list_of
+	(&quot;B6&quot;, B6)
+	(&quot;CAST&quot;, CAST)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="16" column="1" bodyfile="src/Def_types.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_def__types_8h_1afabb9877b2195c7d108f26b0ad47885a" prot="public" static="no" mutable="no">
+        <type>const boost::unordered_map&lt; Recomb_product, const char *&gt;</type>
+        <definition>const boost::unordered_map&lt; Recomb_product, const char* &gt; Recomb_to_string</definition>
+        <argsstring></argsstring>
+        <name>Recomb_to_string</name>
+        <initializer>= map_list_of
+	(CO, &quot;CO&quot;)
+	(NCO, &quot;NCO&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="23" column="1" bodyfile="src/Def_types.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>NEW_TYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NEW_TYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ENUMERATORS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Genotype</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>Genotype<sp/>{<sp/>B6,<sp/>CAST<sp/>};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::unordered_map<sp/>&lt;<sp/>Genotype,<sp/>const<sp/>char*<sp/>&gt;<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>Genot_to_string<sp/>=<sp/>map_list_of</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>(B6,<sp/></highlight><highlight class="stringliteral">&quot;B6&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>(CAST,<sp/></highlight><highlight class="stringliteral">&quot;CAST&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::unordered_map<sp/>&lt;<sp/>const<sp/>char*,<sp/>Genotype<sp/>&gt;<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>String_to_genot<sp/>=<sp/>map_list_of</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;B6&quot;</highlight><highlight class="normal">,<sp/>B6)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;CAST&quot;</highlight><highlight class="normal">,<sp/>CAST);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Recombinant<sp/>product</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>Recomb_product<sp/>{<sp/>CO,<sp/>NCO<sp/>};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::unordered_map<sp/>&lt;<sp/>Recomb_product,<sp/>const<sp/>char*<sp/>&gt;<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>Recomb_to_string<sp/>=<sp/>map_list_of</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>(CO,<sp/></highlight><highlight class="stringliteral">&quot;CO&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>(NCO,<sp/></highlight><highlight class="stringliteral">&quot;NCO&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TYPEDEF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Special<sp/>vectors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>vector<sp/>&lt;<sp/>int<sp/>&gt;<sp/>IntVector;<sp/></highlight><highlight class="comment">//<sp/>Of<sp/>int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>vector<sp/>&lt;<sp/>string<sp/>&gt;<sp/>StringVector;<sp/></highlight><highlight class="comment">//<sp/>Of<sp/>string</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_coord__fragments" kindref="compound">Coord_fragments</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>vector<sp/>&lt;<sp/>Coord_fragments<sp/>&gt;<sp/>Vector_fragments;<sp/></highlight><highlight class="comment">//<sp/>of<sp/>coord_fragments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Special<sp/>hash<sp/>maps</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>map<sp/>&lt;<sp/>string,<sp/>unsigned<sp/>int<sp/>&gt;<sp/>CounterMap;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>STRUCTURES<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Fragments:<sp/>name,<sp/>start,<sp/>end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="struct_coord__fragments" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_coord__fragments" kindref="compound">Coord_fragments</ref><sp/>{<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Genomic<sp/>coordinates:<sp/>chr,<sp/>start,<sp/>stop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="struct_genomic__coordinates" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_genomic__coordinates" kindref="compound">Genomic_coordinates</ref><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>chrom;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Bed<sp/>line:<sp/>chr,<sp/>start,<sp/>stop,<sp/>ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="struct_bed__line" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_bed__line" kindref="compound">Bed_line</ref><sp/>{<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>chrom;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ID;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Param<sp/>settings:<sp/>selection<sp/>method,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#CO,<sp/>CO<sp/>mean<sp/>length,<sp/>CO<sp/>sd<sp/>length,<sp/>CO<sp/>asymetry,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#NCO,<sp/>NCO<sp/>mean<sp/>length,<sp/>NCO<sp/>sd<sp/>length,<sp/>NCO<sp/>asymetry</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>probability<sp/>of<sp/>CAST<sp/>donor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="struct_param__settings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_param__settings" kindref="compound">Param_settings</ref><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>sel_method;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>CO_nb;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>CO_tl_mean;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>CO_tl_sd;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>CO_asym;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NCO_nb;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NCO_tl_mean;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NCO_tl_sd;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NCO_asym;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>prob_CAST;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_frag;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>List<sp/>hash<sp/>tables:<sp/>1)<sp/>Hash<sp/>for<sp/>parameter<sp/>settings<sp/>(Param_settings<sp/>struct)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2)<sp/>Hash<sp/>for<sp/>CO<sp/>counts<sp/>(CounterMap<sp/>typedef)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3)<sp/>Hash<sp/>for<sp/>NCO<sp/>counts<sp/>(CounterMap<sp/>typedef)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="struct_list___hash" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_list___hash" kindref="compound">List_Hash</ref><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map<sp/>&lt;<sp/>string,<sp/>Param_settings<sp/>&gt;<sp/>hash_param_settings;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map<sp/>&lt;<sp/>string,<sp/>CounterMap<sp/>&gt;<sp/>hash_param_COs;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map<sp/>&lt;<sp/>string,<sp/>CounterMap<sp/>&gt;<sp/>hash_param_NCOs;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//<sp/>List<sp/>variants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="struct_list__variants" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_list__variants" kindref="compound">List_variants</ref><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>IntVector<sp/>vect_pos;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>vector<sp/>&lt;<sp/>string<sp/>&gt;<sp/>vect_B6_alleles;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>vector<sp/>&lt;<sp/>string<sp/>&gt;<sp/>vect_CAST_alleles;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="src/Def_types.h"/>
+  </compounddef>
+</doxygen>

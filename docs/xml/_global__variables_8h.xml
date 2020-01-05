@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_global__variables_8h" kind="file" language="C++">
+    <compoundname>Global_variables.h</compoundname>
+    <includes refid="_libraries_8h" local="yes">Libraries.h</includes>
+    <includedby refid="_inclusions_8h" local="yes">src/Inclusions.h</includedby>
+    <includedby refid="_global__variables_8cpp" local="yes">src/Global_variables.cpp</includedby>
+    <incdepgraph>
+      <node id="215">
+        <label>sys/stat.h</label>
+      </node>
+      <node id="224">
+        <label>Recombination_event.h</label>
+        <link refid="_recombination__event_8h_source"/>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>iterator</label>
+      </node>
+      <node id="226">
+        <label>Functions.h</label>
+        <link refid="_functions_8h_source"/>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>Libraries.h</label>
+        <link refid="_libraries_8h_source"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>cassert</label>
+      </node>
+      <node id="206">
+        <label>numeric</label>
+      </node>
+      <node id="201">
+        <label>string</label>
+      </node>
+      <node id="207">
+        <label>map</label>
+      </node>
+      <node id="200">
+        <label>fstream</label>
+      </node>
+      <node id="220">
+        <label>boost/program_options.hpp</label>
+      </node>
+      <node id="222">
+        <label>Def_types.h</label>
+        <link refid="_def__types_8h_source"/>
+      </node>
+      <node id="217">
+        <label>boost/assign/list_of.hpp</label>
+      </node>
+      <node id="214">
+        <label>random</label>
+      </node>
+      <node id="213">
+        <label>ctime</label>
+      </node>
+      <node id="219">
+        <label>boost/unordered_map.hpp</label>
+      </node>
+      <node id="209">
+        <label>vector</label>
+      </node>
+      <node id="218">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="197">
+        <label>src/Global_variables.h</label>
+        <link refid="_global__variables_8h"/>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="204">
+        <label>array</label>
+      </node>
+      <node id="216">
+        <label>time.h</label>
+      </node>
+      <node id="212">
+        <label>cstdlib</label>
+      </node>
+      <node id="225">
+        <label>Fragment.h</label>
+        <link refid="_fragment_8h_source"/>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>iostream</label>
+      </node>
+      <node id="208">
+        <label>unordered_map</label>
+      </node>
+      <node id="203">
+        <label>type_traits</label>
+      </node>
+      <node id="202">
+        <label>set</label>
+      </node>
+      <node id="223">
+        <label>Hotspot.h</label>
+        <link refid="_hotspot_8h_source"/>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>algorithm</label>
+      </node>
+      <node id="221">
+        <label>Inclusions.h</label>
+        <link refid="_inclusions_8h_source"/>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="234">
+        <label>src/Recombination_event.h</label>
+        <link refid="_recombination__event_8h_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>src/Functions.h</label>
+        <link refid="_functions_8h_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>src/Libraries.h</label>
+        <link refid="_libraries_8h_source"/>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>src/Functions.cpp</label>
+        <link refid="_functions_8cpp_source"/>
+      </node>
+      <node id="238">
+        <label>src/main.cpp</label>
+        <link refid="main_8cpp_source"/>
+      </node>
+      <node id="233">
+        <label>src/Hotspot.cpp</label>
+        <link refid="_hotspot_8cpp_source"/>
+      </node>
+      <node id="227">
+        <label>src/Global_variables.h</label>
+        <link refid="_global__variables_8h"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>src/Recombination_event.cpp</label>
+        <link refid="_recombination__event_8cpp_source"/>
+      </node>
+      <node id="230">
+        <label>src/Fragment.h</label>
+        <link refid="_fragment_8h_source"/>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>src/Fragment.cpp</label>
+        <link refid="_fragment_8cpp_source"/>
+      </node>
+      <node id="239">
+        <label>src/Global_variables.cpp</label>
+        <link refid="_global__variables_8cpp_source"/>
+      </node>
+      <node id="232">
+        <label>src/Hotspot.h</label>
+        <link refid="_hotspot_8h_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>src/Inclusions.h</label>
+        <link refid="_inclusions_8h_source"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_global__variables_8h_1a61567ca0adde55483d9465333d1456a7" prot="public" static="no" mutable="no">
+        <type>mt19937</type>
+        <definition>mt19937 GENERATOR</definition>
+        <argsstring></argsstring>
+        <name>GENERATOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Global_variables.h" line="6" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_global__variables_8h_1aaf6ab885c6d0650cfaceed29c9312362" prot="public" static="no" mutable="no">
+        <type>StringVector</type>
+        <definition>StringVector HEADER_FRAGMENTS</definition>
+        <argsstring></argsstring>
+        <name>HEADER_FRAGMENTS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Global_variables.h" line="7" column="1" bodyfile="src/Global_variables.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DEF_GLOBAL_VARIABLES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_GLOBAL_VARIABLES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Libraries.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>mt19937<sp/>GENERATOR;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>StringVector<sp/>HEADER_FRAGMENTS;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="src/Global_variables.h"/>
+  </compounddef>
+</doxygen>

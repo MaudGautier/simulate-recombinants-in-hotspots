@@ -1,0 +1,316 @@
+\hypertarget{class_fragment}{}\section{Fragment Class Reference}
+\label{class_fragment}\index{Fragment@{Fragment}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_fragment_aa7da512e587fa97a7654dcad2f52e01b}\label{class_fragment_aa7da512e587fa97a7654dcad2f52e01b}} 
+{\bfseries Fragment} (\mbox{\hyperlink{class_hotspot}{Hotspot}} const \&hotspot, \mbox{\hyperlink{class_recombination__event}{Recombination\+\_\+event}} const \&recomb\+\_\+event, unsigned int read\+\_\+length)
+\item 
+\mbox{\Hypertarget{class_fragment_a786e9b3d903c0769d8d5f5b0da57a06a}\label{class_fragment_a786e9b3d903c0769d8d5f5b0da57a06a}} 
+const string \& {\bfseries get\+\_\+read\+ID} () const
+\item 
+\mbox{\Hypertarget{class_fragment_a17a701443830dbe50a8444ed53010b4a}\label{class_fragment_a17a701443830dbe50a8444ed53010b4a}} 
+const Int\+Vector \& {\bfseries get\+\_\+variant\+\_\+positions} () const
+\item 
+\mbox{\Hypertarget{class_fragment_a6f567ebc663522ee42c79b108375f799}\label{class_fragment_a6f567ebc663522ee42c79b108375f799}} 
+const vector$<$ Genotype $>$ \& {\bfseries get\+\_\+genotyped\+\_\+variants} () const
+\item 
+\mbox{\Hypertarget{class_fragment_a7a5609813ecff823a99e71641daa31c1}\label{class_fragment_a7a5609813ecff823a99e71641daa31c1}} 
+int {\bfseries get\+\_\+counter} () const
+\item 
+\mbox{\Hypertarget{class_fragment_a898778d4167a31eb55e28ac32e4f2121}\label{class_fragment_a898778d4167a31eb55e28ac32e4f2121}} 
+void {\bfseries print\+\_\+hotspot\+\_\+info} ()
+\item 
+\mbox{\hyperlink{struct_bed__line}{Bed\+\_\+line}} \mbox{\hyperlink{class_fragment_a0a7efd717d2eb453f380c261b43cd08d}{choose\+\_\+fragment}} (\mbox{\hyperlink{class_hotspot}{Hotspot}} const \&hotspot)
+\item 
+int \mbox{\hyperlink{class_fragment_af0b7207f40388ef97fe23bf05930ec59}{choose\+\_\+gamete}} ()
+\item 
+Int\+Vector \mbox{\hyperlink{class_fragment_afb77967eea24509b2a4a4907eb991f5b}{extract\+\_\+variants\+\_\+from\+\_\+hotspot}} (\mbox{\hyperlink{class_hotspot}{Hotspot}} const \&hotspot, int r1\+\_\+start, int r1\+\_\+end, int r2\+\_\+start, int r2\+\_\+end)
+\item 
+vector$<$ Genotype $>$ \mbox{\hyperlink{class_fragment_a377530f10a70d0c252bdb6bd4f8b5234}{extract\+\_\+genotypes}} (Int\+Vector variant\+\_\+positions, int gamete, int tract\+\_\+start, int tract\+\_\+end, Recomb\+\_\+product recomb\+\_\+product, Genotype donor)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_fragment_a4aa415a39979a122892f7c2b256f8405}\label{class_fragment_a4aa415a39979a122892f7c2b256f8405}} 
+\mbox{\hyperlink{struct_bed__line}{Bed\+\_\+line}} {\bfseries fragment\+\_\+bed}
+\item 
+\mbox{\Hypertarget{class_fragment_a72b65c46e7a0085ad88b4fc36b1a1d6e}\label{class_fragment_a72b65c46e7a0085ad88b4fc36b1a1d6e}} 
+int {\bfseries fragment\+\_\+start}
+\item 
+\mbox{\Hypertarget{class_fragment_a05333835ced79a717d6cb58f43646ace}\label{class_fragment_a05333835ced79a717d6cb58f43646ace}} 
+int {\bfseries fragment\+\_\+end}
+\item 
+\mbox{\Hypertarget{class_fragment_a60d6cae384b1f01e52019bcdcefbde66}\label{class_fragment_a60d6cae384b1f01e52019bcdcefbde66}} 
+int {\bfseries r1\+\_\+start}
+\item 
+\mbox{\Hypertarget{class_fragment_a2d0974c4d6411fad195e2e04c48721ae}\label{class_fragment_a2d0974c4d6411fad195e2e04c48721ae}} 
+int {\bfseries r1\+\_\+end}
+\item 
+\mbox{\Hypertarget{class_fragment_a241bae38bc25636b087823d2ea4879f8}\label{class_fragment_a241bae38bc25636b087823d2ea4879f8}} 
+int {\bfseries r2\+\_\+start}
+\item 
+\mbox{\Hypertarget{class_fragment_a13e2711d5175401b1b908d409e02316a}\label{class_fragment_a13e2711d5175401b1b908d409e02316a}} 
+int {\bfseries r2\+\_\+end}
+\item 
+\mbox{\Hypertarget{class_fragment_a530bfc880a0010765ef54f1a9e5dca06}\label{class_fragment_a530bfc880a0010765ef54f1a9e5dca06}} 
+unsigned int {\bfseries read\+\_\+length}
+\item 
+\mbox{\Hypertarget{class_fragment_a83daf7b6db65e62fb60aef6dffc69d32}\label{class_fragment_a83daf7b6db65e62fb60aef6dffc69d32}} 
+int {\bfseries gamete}
+\item 
+\mbox{\Hypertarget{class_fragment_a0a2264007e1a03572f2bd49001a07f57}\label{class_fragment_a0a2264007e1a03572f2bd49001a07f57}} 
+Int\+Vector {\bfseries variant\+\_\+positions}
+\item 
+\mbox{\Hypertarget{class_fragment_aee8b36d3a1a1d9db6aa2d56f5cdabae6}\label{class_fragment_aee8b36d3a1a1d9db6aa2d56f5cdabae6}} 
+vector$<$ Genotype $>$ {\bfseries genotyped\+\_\+variants}
+\item 
+\mbox{\Hypertarget{class_fragment_ac2ec9549f18945133be4396d62431694}\label{class_fragment_ac2ec9549f18945133be4396d62431694}} 
+\mbox{\hyperlink{class_hotspot}{Hotspot}} const  \& {\bfseries ref\+\_\+hotspot}
+\item 
+\mbox{\Hypertarget{class_fragment_ac73054faebcc154000bd1f022341e191}\label{class_fragment_ac73054faebcc154000bd1f022341e191}} 
+\mbox{\hyperlink{class_recombination__event}{Recombination\+\_\+event}} const  \& {\bfseries ref\+\_\+recomb\+\_\+event}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file Fragment.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_fragment_a0a7efd717d2eb453f380c261b43cd08d}\label{class_fragment_a0a7efd717d2eb453f380c261b43cd08d}} 
+\index{Fragment@{Fragment}!choose\+\_\+fragment@{choose\+\_\+fragment}}
+\index{choose\+\_\+fragment@{choose\+\_\+fragment}!Fragment@{Fragment}}
+\subsubsection{\texorpdfstring{choose\+\_\+fragment()}{choose\_fragment()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_bed__line}{Bed\+\_\+line}} Fragment\+::choose\+\_\+fragment (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_hotspot}{Hotspot}} const \&}]{hotspot }\end{DoxyParamCaption})}
+
+Chooses the genotype, using a Bernouilli distribution with probability p of choosing C\+A\+ST.
+
+
+\begin{DoxyParams}{Parameters}
+{\em probability} & probability of choosing C\+A\+ST. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+genotype\+: for the giver. Selects randomly the fragment, among all \char`\"{}real\char`\"{} fragments. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em hotspot} & \mbox{\hyperlink{class_hotspot}{Hotspot}} from which the fragment is selected. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: one particular fragment (with \mbox{\hyperlink{struct_bed__line}{Bed\+\_\+line}} coordinates). 
+\end{DoxyReturn}
+
+
+Definition at line 92 of file Fragment.\+cpp.
+
+
+\begin{DoxyCode}
+95 \{
+96     \textcolor{comment}{// Define list of fragments}
+97     vector < Bed\_line > hotspot\_fragments \{ hotspot.get\_coord\_fragments() \};
+98     
+99     \textcolor{comment}{// Choose randomly within the list}
+100     uniform\_int\_distribution < int > distribution(0, hotspot\_fragments.size() - 1);
+101     \textcolor{keywordtype}{int} rand\_index = distribution (GENERATOR);
+102     
+103     \textcolor{keywordflow}{return} hotspot\_fragments [rand\_index];
+104 
+105 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_fragment_af0b7207f40388ef97fe23bf05930ec59}\label{class_fragment_af0b7207f40388ef97fe23bf05930ec59}} 
+\index{Fragment@{Fragment}!choose\+\_\+gamete@{choose\+\_\+gamete}}
+\index{choose\+\_\+gamete@{choose\+\_\+gamete}!Fragment@{Fragment}}
+\subsubsection{\texorpdfstring{choose\+\_\+gamete()}{choose\_gamete()}}
+{\footnotesize\ttfamily int Fragment\+::choose\+\_\+gamete (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Selects randomly the gamete (may be 1 or 2). \begin{DoxyReturn}{Returns}
+\+: The number of strand (1 or 2). 
+\end{DoxyReturn}
+
+
+Definition at line 109 of file Fragment.\+cpp.
+
+
+\begin{DoxyCode}
+110 \{
+111     \textcolor{comment}{// Uniform distribution to choose between gamete 1 and 2}
+112     uniform\_int\_distribution < int > distribution (0, 1) ;
+113     \textcolor{keywordtype}{int} rand\_index = distribution (GENERATOR);
+114     
+115     \textcolor{keywordflow}{return} rand\_index;
+116 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_fragment_a377530f10a70d0c252bdb6bd4f8b5234}\label{class_fragment_a377530f10a70d0c252bdb6bd4f8b5234}} 
+\index{Fragment@{Fragment}!extract\+\_\+genotypes@{extract\+\_\+genotypes}}
+\index{extract\+\_\+genotypes@{extract\+\_\+genotypes}!Fragment@{Fragment}}
+\subsubsection{\texorpdfstring{extract\+\_\+genotypes()}{extract\_genotypes()}}
+{\footnotesize\ttfamily vector$<$ Genotype $>$ Fragment\+::extract\+\_\+genotypes (\begin{DoxyParamCaption}\item[{Int\+Vector}]{variant\+\_\+positions,  }\item[{int}]{gamete,  }\item[{int}]{tract\+\_\+start,  }\item[{int}]{tract\+\_\+end,  }\item[{Recomb\+\_\+product}]{recomb\+\_\+product,  }\item[{Genotype}]{donor }\end{DoxyParamCaption})}
+
+Extract the exact genotypes, based on the position of variants and conversion tract, the type of recombination product (C\+O/\+N\+CO), the chosen gamete and which gamete was the donor in the conversion event. 
+\begin{DoxyParams}{Parameters}
+{\em variant\+\_\+positions} & List of polymorphic positions within the sequenced fragment. \\
+\hline
+{\em gamete} & \+: Number of the gamete (1 or 2). \\
+\hline
+{\em tract\+\_\+start} & \+: Start position of the conversion tract. \\
+\hline
+{\em tract\+\_\+end} & \+: End position of the conversion tract. \\
+\hline
+{\em recomb\+\_\+product} & \+: Type of recombination product (CO or N\+CO). \\
+\hline
+{\em donor} & \+: Donor in the conversion event. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: a vector of genotypes (corresponding to the sequenced genotypes of the selected fragment). 
+\end{DoxyReturn}
+
+
+Definition at line 152 of file Fragment.\+cpp.
+
+
+\begin{DoxyCode}
+160 \{
+161     \textcolor{comment}{// NOTE: }
+162     \textcolor{comment}{//}
+163     \textcolor{comment}{// NON-CROSSOVER - C is DONOR}
+164     \textcolor{comment}{// BBBBBB|CCCC|BBBB - gamete 0}
+165     \textcolor{comment}{// CCCCCCCCCCCCCCCC - gamete 1}
+166     \textcolor{comment}{//}
+167     \textcolor{comment}{// NON-CROSSOVER - B is DONOR}
+168     \textcolor{comment}{// BBBBBBBBBBBBBBBB - gamete 0}
+169     \textcolor{comment}{// CCCCCC|BBBB|CCCC - gamete 1}
+170     \textcolor{comment}{//}
+171     \textcolor{comment}{//}
+172     \textcolor{comment}{// CROSSOVER - C is DONOR}
+173     \textcolor{comment}{// BBBBB|CCCCCCCCCC - gamete 0}
+174     \textcolor{comment}{// CCCCCCCCCCC|BBBB - gamete 1}
+175     \textcolor{comment}{//}
+176     \textcolor{comment}{// CROSSOVER - B is DONOR}
+177     \textcolor{comment}{// BBBBBBBBBBB|CCCC - gamete 0}
+178     \textcolor{comment}{// CCCCC|BBBBBBBBBB - gamete 1}
+179     
+180     
+181     \textcolor{comment}{// Declare}
+182     Genotype genot\_1, genot\_2;
+183     Genotype bef\_tract, in\_tract, aft\_tract;
+184 
+185     \textcolor{comment}{// According to the gamete}
+186     \textcolor{keywordflow}{if} (gamete == 0) \{
+187         genot\_1 = B6;
+188         genot\_2 = CAST;
+189     \}
+190     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (gamete == 1) \{
+191         genot\_1 = CAST;
+192         genot\_2 = B6;
+193     \}
+194     \textcolor{keywordflow}{else} \{
+195         cout << \textcolor{stringliteral}{"ERROR in 'Fragment::extract\_genotypes': gamete number "};
+196         cout << \textcolor{stringliteral}{"is different from both 0 and 1."} << endl;
+197         \textcolor{keywordflow}{throw} exception();
+198     \}
+199     
+200     \textcolor{comment}{// According to recomb\_product}
+201     \textcolor{keywordflow}{if} (recomb\_product == CO) \{
+202         bef\_tract = genot\_1 ;
+203         aft\_tract = genot\_2 ;
+204         \textcolor{keywordflow}{if} (donor == B6) \{
+205             in\_tract = B6 ;
+206         \}
+207         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (donor == CAST) \{
+208             in\_tract = CAST ;
+209         \}
+210     \}
+211     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (recomb\_product == NCO) \{
+212         bef\_tract = genot\_1 ;
+213         aft\_tract = genot\_1 ;
+214         \textcolor{keywordflow}{if} ( ( (donor == CAST) and (gamete == 1) )
+215              or 
+216              ( (donor == B6) and (gamete == 0) )
+217            ) \{
+218             in\_tract = genot\_1 ;
+219         \}
+220         \textcolor{keywordflow}{else} \{
+221             in\_tract = genot\_2 ;
+222         \}
+223     \}
+224 
+225     \textcolor{comment}{// Read all variant positions and extract the righteous genotyoe}
+226     vector < Genotype > vect\_genotypes;
+227     \textcolor{keywordflow}{for} (\textcolor{keyword}{const} \textcolor{keywordtype}{int} & variant : variant\_positions) \{
+228         \textcolor{keywordflow}{if} (variant < tract\_start) \{
+229             vect\_genotypes.push\_back(bef\_tract);    
+230         \}
+231         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (variant > tract\_end) \{
+232             vect\_genotypes.push\_back(aft\_tract);
+233         \}
+234         \textcolor{keywordflow}{else} \{
+235             vect\_genotypes.push\_back(in\_tract);
+236         \}
+237     \}
+238     
+239     \textcolor{keywordflow}{return} vect\_genotypes;
+240 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_fragment_afb77967eea24509b2a4a4907eb991f5b}\label{class_fragment_afb77967eea24509b2a4a4907eb991f5b}} 
+\index{Fragment@{Fragment}!extract\+\_\+variants\+\_\+from\+\_\+hotspot@{extract\+\_\+variants\+\_\+from\+\_\+hotspot}}
+\index{extract\+\_\+variants\+\_\+from\+\_\+hotspot@{extract\+\_\+variants\+\_\+from\+\_\+hotspot}!Fragment@{Fragment}}
+\subsubsection{\texorpdfstring{extract\+\_\+variants\+\_\+from\+\_\+hotspot()}{extract\_variants\_from\_hotspot()}}
+{\footnotesize\ttfamily Int\+Vector Fragment\+::extract\+\_\+variants\+\_\+from\+\_\+hotspot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_hotspot}{Hotspot}} const \&}]{hotspot,  }\item[{int}]{r1\+\_\+start,  }\item[{int}]{r1\+\_\+end,  }\item[{int}]{r2\+\_\+start,  }\item[{int}]{r2\+\_\+end }\end{DoxyParamCaption})}
+
+Extracts variant positions from hotspot. 
+\begin{DoxyParams}{Parameters}
+{\em hotspot} & \+: \mbox{\hyperlink{class_hotspot}{Hotspot}} to which the fragment belongs. \\
+\hline
+{\em r1\+\_\+start} & start of read 1. \\
+\hline
+{\em r1\+\_\+end} & \+: end of read 1. \\
+\hline
+{\em r2\+\_\+start} & start of read 2. \\
+\hline
+{\em r2\+\_\+end} & \+: end of read 2. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 120 of file Fragment.\+cpp.
+
+
+\begin{DoxyCode}
+125 \{
+126     \textcolor{comment}{// Get all variants in the hotspot}
+127     IntVector variants\_of\_hotspot \{ hotspot.get\_variants() \};
+128     
+129     \textcolor{comment}{// Extract only variants overlapping either read 1 or read 2}
+130     IntVector variants\_out;
+131     \textcolor{keywordflow}{for} (
+132             \textcolor{keywordtype}{size\_t} variant\_nb = 0; 
+133             variant\_nb < variants\_of\_hotspot.size(); 
+134             variant\_nb++
+135         ) \{
+136         \textcolor{keywordflow}{if} ( ( 
+137                 (variants\_of\_hotspot [variant\_nb] >= r1\_start) 
+138                 and (variants\_of\_hotspot [variant\_nb] <= r1\_end) 
+139              ) or (
+140                  (variants\_of\_hotspot [variant\_nb] >= r2\_start) 
+141                  and (variants\_of\_hotspot [variant\_nb] <= r2\_end)
+142              )
+143            ) \{
+144             variants\_out.push\_back (variants\_of\_hotspot [variant\_nb] );
+145         \}
+146     \}
+147     \textcolor{keywordflow}{return} variants\_out;
+148 \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Fragment.\+h\item 
+src/Fragment.\+cpp\end{DoxyCompactItemize}

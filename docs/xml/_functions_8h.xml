@@ -1,0 +1,1413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_functions_8h" kind="file" language="C++">
+    <compoundname>Functions.h</compoundname>
+    <includes refid="_libraries_8h" local="yes">Libraries.h</includes>
+    <includedby refid="_inclusions_8h" local="yes">src/Inclusions.h</includedby>
+    <includedby refid="_functions_8cpp" local="yes">src/Functions.cpp</includedby>
+    <incdepgraph>
+      <node id="140">
+        <label>sys/stat.h</label>
+      </node>
+      <node id="150">
+        <label>Recombination_event.h</label>
+        <link refid="_recombination__event_8h_source"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>iterator</label>
+      </node>
+      <node id="122">
+        <label>src/Functions.h</label>
+        <link refid="_functions_8h"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>Libraries.h</label>
+        <link refid="_libraries_8h_source"/>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>cassert</label>
+      </node>
+      <node id="131">
+        <label>numeric</label>
+      </node>
+      <node id="126">
+        <label>string</label>
+      </node>
+      <node id="132">
+        <label>map</label>
+      </node>
+      <node id="125">
+        <label>fstream</label>
+      </node>
+      <node id="145">
+        <label>boost/program_options.hpp</label>
+      </node>
+      <node id="147">
+        <label>Def_types.h</label>
+        <link refid="_def__types_8h_source"/>
+      </node>
+      <node id="142">
+        <label>boost/assign/list_of.hpp</label>
+      </node>
+      <node id="139">
+        <label>random</label>
+      </node>
+      <node id="138">
+        <label>ctime</label>
+      </node>
+      <node id="144">
+        <label>boost/unordered_map.hpp</label>
+      </node>
+      <node id="134">
+        <label>vector</label>
+      </node>
+      <node id="143">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="148">
+        <label>Global_variables.h</label>
+        <link refid="_global__variables_8h_source"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>array</label>
+      </node>
+      <node id="141">
+        <label>time.h</label>
+      </node>
+      <node id="137">
+        <label>cstdlib</label>
+      </node>
+      <node id="151">
+        <label>Fragment.h</label>
+        <link refid="_fragment_8h_source"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>iostream</label>
+      </node>
+      <node id="133">
+        <label>unordered_map</label>
+      </node>
+      <node id="128">
+        <label>type_traits</label>
+      </node>
+      <node id="127">
+        <label>set</label>
+      </node>
+      <node id="149">
+        <label>Hotspot.h</label>
+        <link refid="_hotspot_8h_source"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>algorithm</label>
+      </node>
+      <node id="146">
+        <label>Inclusions.h</label>
+        <link refid="_inclusions_8h_source"/>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="161">
+        <label>src/Recombination_event.h</label>
+        <link refid="_recombination__event_8h_source"/>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>src/Functions.h</label>
+        <link refid="_functions_8h"/>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>src/Libraries.h</label>
+        <link refid="_libraries_8h_source"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="164">
+        <label>src/Functions.cpp</label>
+        <link refid="_functions_8cpp_source"/>
+      </node>
+      <node id="163">
+        <label>src/main.cpp</label>
+        <link refid="main_8cpp_source"/>
+      </node>
+      <node id="160">
+        <label>src/Hotspot.cpp</label>
+        <link refid="_hotspot_8cpp_source"/>
+      </node>
+      <node id="157">
+        <label>src/Global_variables.h</label>
+        <link refid="_global__variables_8h_source"/>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>src/Recombination_event.cpp</label>
+        <link refid="_recombination__event_8cpp_source"/>
+      </node>
+      <node id="155">
+        <label>src/Fragment.h</label>
+        <link refid="_fragment_8h_source"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>src/Fragment.cpp</label>
+        <link refid="_fragment_8cpp_source"/>
+      </node>
+      <node id="158">
+        <label>src/Global_variables.cpp</label>
+        <link refid="_global__variables_8cpp_source"/>
+      </node>
+      <node id="159">
+        <label>src/Hotspot.h</label>
+        <link refid="_hotspot_8h_source"/>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>src/Inclusions.h</label>
+        <link refid="_inclusions_8h_source"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_functions_8h_1a2769bc584affdd8be3e168dd1556f559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="struct_bed__line" kindref="compound">Bed_line</ref> &gt;</type>
+        <definition>vector&lt; Bed_line &gt; bed_file_to_vector</definition>
+        <argsstring>(string file_name)</argsstring>
+        <name>bed_file_to_vector</name>
+        <param>
+          <type>string</type>
+          <declname>file_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads a BED file and extracts all pieces of info. Uses substr_line_from_bed() to extract info from each line.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the BED file.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: vector of <ref refid="struct_bed__line" kindref="compound">Bed_line</ref> structure. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="20" column="1" bodyfile="src/Functions.cpp" bodystart="11" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1acdc3b17459ba3197245f6bf8a09cbb26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_bed__line" kindref="compound">Bed_line</ref></type>
+        <definition>Bed_line substr_line_from_bed</definition>
+        <argsstring>(string line, string delim=&quot;\)</argsstring>
+        <name>substr_line_from_bed</name>
+        <param>
+          <type>string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extracts chrom, start, end, ID from a BED line.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The line from which info must be extracted. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delimiter between fields.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: the four fields under a <ref refid="struct_bed__line" kindref="compound">Bed_line</ref> structure. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="32" column="1" bodyfile="src/Functions.cpp" bodystart="41" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a7a7c7736411d9a74df01777d6db828c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringVector</type>
+        <definition>StringVector extract_info_from_line</definition>
+        <argsstring>(string line, int nb_elements, string delim=&quot;\)</argsstring>
+        <name>extract_info_from_line</name>
+        <param>
+          <type>string</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extracts info from line.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Line from which info must be extracted. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nb_elements</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nb_elements to extract. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delimitor between fields.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: vector of strings (containing all fields). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="45" column="1" bodyfile="src/Functions.cpp" bodystart="68" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1aa0dea1482a6dec2ef2fcb7b47b1ad19b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringVector</type>
+        <definition>StringVector create_vector_from_file</definition>
+        <argsstring>(string file_name)</argsstring>
+        <name>create_vector_from_file</name>
+        <param>
+          <type>string</type>
+          <declname>file_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a vector, for which each field corresponds to one line of the input file.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the input file.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: vector of one string per line. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="61" column="1" bodyfile="src/Functions.cpp" bodystart="91" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a4efa3a2691901e05cb1dcf208bd792c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringVector</type>
+        <definition>StringVector random_sample_from_string_vector</definition>
+        <argsstring>(StringVector vec_strings, size_t selection_size)</argsstring>
+        <name>random_sample_from_string_vector</name>
+        <param>
+          <type>StringVector</type>
+          <declname>vec_strings</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>selection_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a subselection of the input vector.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_strings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input vector (of strings). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selection_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The nb of elements to be extracted.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: A random sample vector. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="73" column="1" bodyfile="src/Functions.cpp" bodystart="118" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1ab6f13256790b90251d553b81b65e5ddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringVector</type>
+        <definition>StringVector random_sample_from_weighted_string_vector</definition>
+        <argsstring>(StringVector vec_strings, vector&lt; double &gt; vec_weights, size_t selection_size)</argsstring>
+        <name>random_sample_from_weighted_string_vector</name>
+        <param>
+          <type>StringVector</type>
+          <declname>vec_strings</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>vec_weights</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>selection_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a subselection of the input vector, with probabilities given by the weights in vec_weights.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_strings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input vector (of strings). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_weights</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>THe weight associated to each element in vec_strings. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selection_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The nb of elements to be extracted.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: A random sample vector (taking into account the given weights) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="90" column="1" bodyfile="src/Functions.cpp" bodystart="142" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a8170e06ebdd22117524580e776f719b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CounterMap</type>
+        <definition>CounterMap vector_elements_to_counter_map</definition>
+        <argsstring>(StringVector vec_elements)</argsstring>
+        <name>vector_elements_to_counter_map</name>
+        <param>
+          <type>StringVector</type>
+          <declname>vec_elements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a vector of pairs containing the string (as key) and the counts (as values).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_elements</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The initial vector of elements. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: The counter map. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="105" column="1" bodyfile="src/Functions.cpp" bodystart="176" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a69639a0b2e901da49a7d401decb65891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_param__settings" kindref="compound">Param_settings</ref></type>
+        <definition>Param_settings extract_settings_from_line</definition>
+        <argsstring>(string line, string delim=&quot;\)</argsstring>
+        <name>extract_settings_from_line</name>
+        <param>
+          <type>string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a <ref refid="struct_param__settings" kindref="compound">Param_settings</ref> structure of the list of parameters.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string containing all parameters to read. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delimitor between parameters.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: A structure <ref refid="struct_param__settings" kindref="compound">Param_settings</ref> containing all parameter settings. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="117" column="1" bodyfile="src/Functions.cpp" bodystart="197" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a038bac1a199c03d6a1da12e8cf0bd68f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_list___hash" kindref="compound">List_Hash</ref></type>
+        <definition>List_Hash get_parameters</definition>
+        <argsstring>(string file_parameters, set&lt; string &gt; &amp;set_hotspot_instances, string path_to_data, string delim=&quot;\, bool verbose=false)</argsstring>
+        <name>get_parameters</name>
+        <param>
+          <type>string</type>
+          <declname>file_parameters</declname>
+        </param>
+        <param>
+          <type>set&lt; string &gt; &amp;</type>
+          <declname>set_hotspot_instances</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path_to_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets all parameters from file and puts them in hash tables.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file_parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the file containing all parameters </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>set_hotspot_instances</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set of the names of all hotstpot instances. Passed by reference. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>path_to_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the name of the folder &quot;Data&quot;. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delimitor between parameters.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: A strucutre of type List Hash containing three hash tables:<itemizedlist>
+<listitem><para>hash_param_settings: HASH (paramID <ndash/>&gt; <ref refid="struct_param__settings" kindref="compound">Param_settings</ref>)</para></listitem><listitem><para>hash_param_COs: HASH (paramID <ndash/>&gt; CounterMap_COs)</para></listitem><listitem><para>hash_param_NCOs: HASH (paramID <ndash/>&gt; CounterMap_NCOs) </para></listitem></itemizedlist>
+</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="138" column="1" bodyfile="src/Functions.cpp" bodystart="279" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a4f623611bdcfb3ea421e42f7bc2ad627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modify_weight_vector_from_file</definition>
+        <argsstring>(StringVector &amp;list_hotspots, vector&lt; double &gt; &amp;list_weights, string file_name, string delim=&quot;\)</argsstring>
+        <name>modify_weight_vector_from_file</name>
+        <param>
+          <type>StringVector &amp;</type>
+          <declname>list_hotspots</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt; &amp;</type>
+          <declname>list_weights</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies both a vector of list of hotspots (generally empty) and a vector of list of weights (generally empty) given in parameters.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list_hotspots</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A vector of list of hotspots (generally empty). Passed by reference (to be created). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>list_weights</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A vector of list of weights (generally empty). Passed by reference (to be created). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the file (that must contain one column for the name of the hotspot, and one column for the intensity). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delimitor between fields in the file. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="161" column="1" bodyfile="src/Functions.cpp" bodystart="397" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1ad7a9349c899ecb55d078e5a012087c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pair&lt; StringVector, StringVector &gt;</type>
+        <definition>pair&lt; StringVector, StringVector &gt; select_hotspots</definition>
+        <argsstring>(unsigned int CO_nb, unsigned int NCO_nb, string selection_method, string path_to_data)</argsstring>
+        <name>select_hotspots</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>CO_nb</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>NCO_nb</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>selection_method</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path_to_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a vector of 2 vectors containing the list of hotspots for COs and NCOs.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>CO_nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of COs required. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NCO_nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of NCOs required. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selection_method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The method for the selection of hotspots. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>path_to_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the name of the folder &quot;Data&quot;. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>verbose</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether or not things should be printed.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: A vector containing 2 vectors:<itemizedlist>
+<listitem><para>vec_hotspot_ID_COs: The vector of all hotspot IDs for COs.</para></listitem><listitem><para>vec_hotspot_ID_NCOs: The vector of all hotspot IDs for NCOs. </para></listitem></itemizedlist>
+</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="184" column="1" bodyfile="src/Functions.cpp" bodystart="439" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a3c428165a24187921d8e887b8dce1a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void empty_output_folder</definition>
+        <argsstring>(string output_folder, std::unordered_map&lt; string, Param_settings &gt; hash_param_settings)</argsstring>
+        <name>empty_output_folder</name>
+        <param>
+          <type>string</type>
+          <declname>output_folder</declname>
+        </param>
+        <param>
+          <type>std::unordered_map&lt; string, <ref refid="struct_param__settings" kindref="compound">Param_settings</ref> &gt;</type>
+          <declname>hash_param_settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Empties output folders or create them.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output_folder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the folder in which the results will be written. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hash_param_settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The HASH map containing settings IDs. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="200" column="1" bodyfile="src/Functions.cpp" bodystart="563" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a88366c6dcae443afb77660a224d61d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initialise_output_files</definition>
+        <argsstring>(string output_folder, std::unordered_map&lt; string, Param_settings &gt; hash_param_settings, StringVector list_output_files, StringVector header_vector)</argsstring>
+        <name>initialise_output_files</name>
+        <param>
+          <type>string</type>
+          <declname>output_folder</declname>
+        </param>
+        <param>
+          <type>std::unordered_map&lt; string, <ref refid="struct_param__settings" kindref="compound">Param_settings</ref> &gt;</type>
+          <declname>hash_param_settings</declname>
+        </param>
+        <param>
+          <type>StringVector</type>
+          <declname>list_output_files</declname>
+        </param>
+        <param>
+          <type>StringVector</type>
+          <declname>header_vector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialise output files (in all sets of parameters).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output_folder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the folder in which the results will be written. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hash_param_settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The HASH map containing settings IDs. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name_output_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the file that must be opened. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>header_vector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of column names (in a vector format). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="216" column="1" bodyfile="src/Functions.cpp" bodystart="603" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a6ba464b9b402e0ec95bbece2e849a9d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void write_line_to_file</definition>
+        <argsstring>(ofstream &amp;file_name, StringVector vec_values, string delim=&quot;\)</argsstring>
+        <name>write_line_to_file</name>
+        <param>
+          <type>ofstream &amp;</type>
+          <declname>file_name</declname>
+        </param>
+        <param>
+          <type>StringVector</type>
+          <declname>vec_values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a line into a file.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The path to the file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The list of values that should be written. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delimitor between fields. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="232" column="1" bodyfile="src/Functions.cpp" bodystart="635" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a0eb4e44a8ad202d7b4abe4f1641c4349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string vector_to_string</definition>
+        <argsstring>(StringVector vec_values, string delim=&quot;;&quot;)</argsstring>
+        <name>vector_to_string</name>
+        <param>
+          <type>StringVector</type>
+          <declname>vec_values</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>delim</declname>
+          <defval>&quot;;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts a vector of string into a string with field delimitators.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The list of fields that should be outputted. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delimitor between fields.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: A string containing all fields from the input vector, all separated by the specified delimitor. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="250" column="1" bodyfile="src/Functions.cpp" bodystart="651" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a01ed38ee0ccc85cb2fcedbd472109bc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string vector_to_string</definition>
+        <argsstring>(IntVector vec_values, string delim=&quot;;&quot;)</argsstring>
+        <name>vector_to_string</name>
+        <param>
+          <type>IntVector</type>
+          <declname>vec_values</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>delim</declname>
+          <defval>&quot;;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="254" column="1" bodyfile="src/Functions.cpp" bodystart="673" bodyend="692"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a96604fa4aefa7e9cc8507388bbf0943e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string vector_to_string</definition>
+        <argsstring>(vector&lt; Genotype &gt; vec_values, string delim=&quot;;&quot;)</argsstring>
+        <name>vector_to_string</name>
+        <param>
+          <type>vector&lt; Genotype &gt;</type>
+          <declname>vec_values</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>delim</declname>
+          <defval>&quot;;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="258" column="1" bodyfile="src/Functions.cpp" bodystart="693" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a2f4c82beaba0455dd2d3e7345a758160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int count_in_vector</definition>
+        <argsstring>(vector&lt; Genotype &gt; vec_values, Genotype searched_val)</argsstring>
+        <name>count_in_vector</name>
+        <param>
+          <type>vector&lt; Genotype &gt;</type>
+          <declname>vec_values</declname>
+        </param>
+        <param>
+          <type>Genotype</type>
+          <declname>searched_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Counts the occurrences of a particular value in a vector.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of all values. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>searched_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The searched value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: The number of occurrences of the searched value in the list. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="273" column="1" bodyfile="src/Functions.cpp" bodystart="717" bodyend="730"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a31cf44833f7231cfa68a1bd13d9e7d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntVector</type>
+        <definition>IntVector extract_indexes_from_vector</definition>
+        <argsstring>(IntVector all_positions, IntVector chosen_positions)</argsstring>
+        <name>extract_indexes_from_vector</name>
+        <param>
+          <type>IntVector</type>
+          <declname>all_positions</declname>
+        </param>
+        <param>
+          <type>IntVector</type>
+          <declname>chosen_positions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the indices of vector all_positions that are found in chosen_positions.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>all_positions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of all positions. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chosen_positions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of chosen positions.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: A vector of indices. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="289" column="1" bodyfile="src/Functions.cpp" bodystart="734" bodyend="751"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1ae268b83116da2c9decfbcd02aaeed584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringVector</type>
+        <definition>StringVector subset_vector_with_indices</definition>
+        <argsstring>(StringVector vec_original, IntVector chosen_indices)</argsstring>
+        <name>subset_vector_with_indices</name>
+        <param>
+          <type>StringVector</type>
+          <declname>vec_original</declname>
+        </param>
+        <param>
+          <type>IntVector</type>
+          <declname>chosen_indices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a subset of the vec_original containing only positions of the chosen_indices.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_original</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The original vector that must be subsetted. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chosen_indices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of indices.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: The subsetted vector. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="305" column="1" bodyfile="src/Functions.cpp" bodystart="755" bodyend="772"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1abcdc0a7f9108d0f6899cd845c02b638b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringVector</type>
+        <definition>StringVector extract_alleles</definition>
+        <argsstring>(vector&lt; Genotype &gt; vec_genotypes, StringVector B6_alleles, StringVector CAST_alleles)</argsstring>
+        <name>extract_alleles</name>
+        <param>
+          <type>vector&lt; Genotype &gt;</type>
+          <declname>vec_genotypes</declname>
+        </param>
+        <param>
+          <type>StringVector</type>
+          <declname>B6_alleles</declname>
+        </param>
+        <param>
+          <type>StringVector</type>
+          <declname>CAST_alleles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extracts the right alleles.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_genotypes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of genotypes (either B6 or CAST). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>B6_alleles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The alleles corresponding to the B6 parent. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CAST_alleles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The alleles corresponding to the CAST parent.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: The vector of alleles. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="321" column="1" bodyfile="src/Functions.cpp" bodystart="776" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1ad0da5877ed092e4b8456d8cf52f77b80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringVector</type>
+        <definition>StringVector get_mut_types</definition>
+        <argsstring>(StringVector alleles, StringVector B6_alleles, StringVector CAST_alleles)</argsstring>
+        <name>get_mut_types</name>
+        <param>
+          <type>StringVector</type>
+          <declname>alleles</declname>
+        </param>
+        <param>
+          <type>StringVector</type>
+          <declname>B6_alleles</declname>
+        </param>
+        <param>
+          <type>StringVector</type>
+          <declname>CAST_alleles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Define what the mutation types are for all alleles of the fragment.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alleles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of alleles corresponding to the fragment. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>B6_alleles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The alleles corresponding to the B6 parent. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CAST_alleles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The alleles corresponding to the CAST parent.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: The vector of mutation types. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="338" column="1" bodyfile="src/Functions.cpp" bodystart="802" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1acfbe126abbe790c21bc2ef2664e70a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringVector</type>
+        <definition>StringVector create_vec_values_vector</definition>
+        <argsstring>(Hotspot &amp;hotspot, Recombination_event &amp;recomb_event, Fragment &amp;fragment, string parameters_name)</argsstring>
+        <name>create_vec_values_vector</name>
+        <param>
+          <type><ref refid="class_hotspot" kindref="compound">Hotspot</ref> &amp;</type>
+          <declname>hotspot</declname>
+        </param>
+        <param>
+          <type><ref refid="class_recombination__event" kindref="compound">Recombination_event</ref> &amp;</type>
+          <declname>recomb_event</declname>
+        </param>
+        <param>
+          <type><ref refid="class_fragment" kindref="compound">Fragment</ref> &amp;</type>
+          <declname>fragment</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>parameters_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates vector of values to print to output file.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hotspot</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_hotspot" kindref="compound">Hotspot</ref> object of the hotspot corresponding to the sequenced fragment. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>recomb_event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_recombination__event" kindref="compound">Recombination_event</ref> object of the recombination event corresponding to the sequenced fragment. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fragment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_fragment" kindref="compound">Fragment</ref> object of the fragment corresponding to the sequenced fragment. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameters_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the parameters written.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: Vector of strings, corresponding to all fields to be printed out. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="359" column="1" bodyfile="src/Functions.cpp" bodystart="826" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="_functions_8h_1a68760db4a3bb38355f720ac696271264" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string extract_type_from_genot</definition>
+        <argsstring>(vector&lt; Genotype &gt; vec_genotypes)</argsstring>
+        <name>extract_type_from_genot</name>
+        <param>
+          <type>vector&lt; Genotype &gt;</type>
+          <declname>vec_genotypes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extracts the type of the recombination event (CO or NCO), based on a vector of genotypes.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_genotypes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of genotypes containing the genotypes of all sequenced positions.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: A type (CO or NCO). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Functions.h" line="377" column="1" bodyfile="src/Functions.cpp" bodystart="902" bodyend="920"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DEF_FUNCTIONS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_FUNCTIONS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Libraries.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=========================================================================<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DECLARATION<sp/>OF<sp/>FUNCTIONS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=========================================================================<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"></highlight><highlight class="normal">vector<sp/>&lt;<sp/>Bed_line<sp/>&gt;<sp/>bed_file_to_vector<sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>file_name);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"></highlight><highlight class="normal"><ref refid="struct_bed__line" kindref="compound">Bed_line</ref><sp/>substr_line_from_bed<sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>line,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>delim<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"></highlight><highlight class="normal">StringVector<sp/>extract_info_from_line<sp/>(</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>line,<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elements,<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>delim<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\t&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"></highlight><highlight class="normal">StringVector<sp/>create_vector_from_file<sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>file_name);<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"></highlight><highlight class="normal">StringVector<sp/>random_sample_from_string_vector<sp/>(</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>vec_strings,<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>selection_size</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"></highlight><highlight class="normal">StringVector<sp/>random_sample_from_weighted_string_vector<sp/>(</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>vec_strings,<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector<sp/>&lt;<sp/>double<sp/>&gt;<sp/>vec_weights,<sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>selection_size</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"></highlight><highlight class="normal">CounterMap<sp/>vector_elements_to_counter_map<sp/>(StringVector<sp/>vec_elements);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"></highlight><highlight class="normal"><ref refid="struct_param__settings" kindref="compound">Param_settings</ref><sp/>extract_settings_from_line<sp/>(</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>line,<sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>delim<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\t&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"></highlight><highlight class="normal"><ref refid="struct_list___hash" kindref="compound">List_Hash</ref><sp/>get_parameters<sp/>(</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>file_parameters,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set<sp/>&lt;<sp/>string<sp/>&gt;<sp/>&amp;<sp/>set_hotspot_instances,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path_to_data,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>delim<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\t&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>verbose<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>modify_weight_vector_from_file<sp/>(</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>&amp;<sp/>list_hotspots,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector<sp/>&lt;<sp/>double<sp/>&gt;<sp/>&amp;<sp/>list_weights,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>file_name,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>delim<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\t&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"></highlight><highlight class="normal">pair<sp/>&lt;<sp/>StringVector,<sp/>StringVector<sp/>&gt;<sp/>select_hotspots<sp/>(</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>CO_nb,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NCO_nb,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>selection_method,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path_to_data</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>empty_output_folder<sp/>(</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output_folder,</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::unordered_map<sp/>&lt;<sp/>string,<sp/>Param_settings<sp/>&gt;<sp/>hash_param_settings</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initialise_output_files<sp/>(</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output_folder,</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::unordered_map<sp/>&lt;<sp/>string,<sp/>Param_settings<sp/>&gt;<sp/>hash_param_settings,</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>list_output_files,</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>header_vector</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>write_line_to_file<sp/>(</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofstream<sp/>&amp;<sp/>file_name,</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>vec_values,</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>delim<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\t&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"></highlight><highlight class="comment">//<sp/>TODO:<sp/>FAIRE<sp/>UN<sp/>TEMPLATE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>vector_to_string<sp/>(</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>vec_values,</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>delim<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>vector_to_string<sp/>(</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IntVector<sp/>vec_values,</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>delim<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>vector_to_string<sp/>(</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector<sp/>&lt;<sp/>Genotype<sp/>&gt;<sp/>vec_values,</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>delim<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="273"><highlight class="comment"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count_in_vector<sp/>(</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector<sp/>&lt;<sp/>Genotype<sp/>&gt;<sp/>vec_values,</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Genotype<sp/>searched_val</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="289"><highlight class="comment"></highlight><highlight class="normal">IntVector<sp/>extract_indexes_from_vector<sp/>(</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IntVector<sp/>all_positions,</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IntVector<sp/>chosen_positions</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"></highlight><highlight class="normal">StringVector<sp/>subset_vector_with_indices<sp/>(</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>vec_original,</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IntVector<sp/>chosen_indices</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="321"><highlight class="comment"></highlight><highlight class="normal">StringVector<sp/>extract_alleles<sp/>(</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector<sp/>&lt;<sp/>Genotype<sp/>&gt;<sp/>vec_genotypes,</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>B6_alleles,</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>CAST_alleles</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="338"><highlight class="comment"></highlight><highlight class="normal">StringVector<sp/>get_mut_types<sp/>(</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>alleles,</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>B6_alleles,</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringVector<sp/>CAST_alleles</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="359"><highlight class="comment"></highlight><highlight class="normal">StringVector<sp/>create_vec_values_vector<sp/>(</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_hotspot" kindref="compound">Hotspot</ref>&amp;<sp/>hotspot,</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_recombination__event" kindref="compound">Recombination_event</ref>&amp;<sp/>recomb_event,<sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>Remove<sp/>this<sp/>feature<sp/>(unused)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_fragment" kindref="compound">Fragment</ref>&amp;<sp/>fragment,</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>parameters_name</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="377"><highlight class="comment"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>extract_type_from_genot<sp/>(vector<sp/>&lt;Genotype&gt;<sp/>vec_genotypes);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/Functions.h"/>
+  </compounddef>
+</doxygen>

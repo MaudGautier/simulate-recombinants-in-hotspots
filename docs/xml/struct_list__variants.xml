@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_list__variants" kind="struct" language="C++" prot="public">
+    <compoundname>List_variants</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_list__variants_1af4de926961aead48d57e898b475e78b1" prot="public" static="no" mutable="no">
+        <type>IntVector</type>
+        <definition>IntVector List_variants::vect_pos</definition>
+        <argsstring></argsstring>
+        <name>vect_pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="97" column="1" bodyfile="src/Def_types.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list__variants_1a74d0e67c9059989e6c46e41910360b73" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt; string &gt; List_variants::vect_B6_alleles</definition>
+        <argsstring></argsstring>
+        <name>vect_B6_alleles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="98" column="1" bodyfile="src/Def_types.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list__variants_1ad924ca6d0f22ee49baa1dc939c3ddd9f" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt; string &gt; List_variants::vect_CAST_alleles</definition>
+        <argsstring></argsstring>
+        <name>vect_CAST_alleles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="99" column="1" bodyfile="src/Def_types.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Def_types.h" line="96" column="1" bodyfile="src/Def_types.h" bodystart="96" bodyend="100"/>
+    <listofallmembers>
+      <member refid="struct_list__variants_1a74d0e67c9059989e6c46e41910360b73" prot="public" virt="non-virtual"><scope>List_variants</scope><name>vect_B6_alleles</name></member>
+      <member refid="struct_list__variants_1ad924ca6d0f22ee49baa1dc939c3ddd9f" prot="public" virt="non-virtual"><scope>List_variants</scope><name>vect_CAST_alleles</name></member>
+      <member refid="struct_list__variants_1af4de926961aead48d57e898b475e78b1" prot="public" virt="non-virtual"><scope>List_variants</scope><name>vect_pos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

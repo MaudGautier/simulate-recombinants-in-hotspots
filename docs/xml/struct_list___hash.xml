@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_list___hash" kind="struct" language="C++" prot="public">
+    <compoundname>List_Hash</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_list___hash_1a63aefb1271b9bd794b7e6544fc2c943f" prot="public" static="no" mutable="no">
+        <type>std::unordered_map&lt; string, <ref refid="struct_param__settings" kindref="compound">Param_settings</ref> &gt;</type>
+        <definition>std::unordered_map&lt; string, Param_settings &gt; List_Hash::hash_param_settings</definition>
+        <argsstring></argsstring>
+        <name>hash_param_settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="90" column="1" bodyfile="src/Def_types.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list___hash_1a5dce3125bc0cbae69798a62e1b365317" prot="public" static="no" mutable="no">
+        <type>std::unordered_map&lt; string, CounterMap &gt;</type>
+        <definition>std::unordered_map&lt; string, CounterMap &gt; List_Hash::hash_param_COs</definition>
+        <argsstring></argsstring>
+        <name>hash_param_COs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="91" column="1" bodyfile="src/Def_types.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list___hash_1a32b5a5b543f5070c3104c83f91bfff16" prot="public" static="no" mutable="no">
+        <type>std::unordered_map&lt; string, CounterMap &gt;</type>
+        <definition>std::unordered_map&lt; string, CounterMap &gt; List_Hash::hash_param_NCOs</definition>
+        <argsstring></argsstring>
+        <name>hash_param_NCOs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="92" column="1" bodyfile="src/Def_types.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Def_types.h" line="89" column="1" bodyfile="src/Def_types.h" bodystart="89" bodyend="93"/>
+    <listofallmembers>
+      <member refid="struct_list___hash_1a5dce3125bc0cbae69798a62e1b365317" prot="public" virt="non-virtual"><scope>List_Hash</scope><name>hash_param_COs</name></member>
+      <member refid="struct_list___hash_1a32b5a5b543f5070c3104c83f91bfff16" prot="public" virt="non-virtual"><scope>List_Hash</scope><name>hash_param_NCOs</name></member>
+      <member refid="struct_list___hash_1a63aefb1271b9bd794b7e6544fc2c943f" prot="public" virt="non-virtual"><scope>List_Hash</scope><name>hash_param_settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

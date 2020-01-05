@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_fragment" kind="class" language="C++" prot="public">
+    <compoundname>Fragment</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_fragment_1a6d6404d57eb503db630ab5d6122a04ce" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Fragment::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="9" column="1" bodyfile="src/Fragment.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_fragment_1a4aa415a39979a122892f7c2b256f8405" prot="protected" static="no" mutable="no">
+        <type><ref refid="struct_bed__line" kindref="compound">Bed_line</ref></type>
+        <definition>Bed_line Fragment::fragment_bed</definition>
+        <argsstring></argsstring>
+        <name>fragment_bed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="32" column="1" bodyfile="src/Fragment.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1a72b65c46e7a0085ad88b4fc36b1a1d6e" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fragment::fragment_start</definition>
+        <argsstring></argsstring>
+        <name>fragment_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="33" column="1" bodyfile="src/Fragment.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1a05333835ced79a717d6cb58f43646ace" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fragment::fragment_end</definition>
+        <argsstring></argsstring>
+        <name>fragment_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="34" column="1" bodyfile="src/Fragment.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1a60d6cae384b1f01e52019bcdcefbde66" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fragment::r1_start</definition>
+        <argsstring></argsstring>
+        <name>r1_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="37" column="1" bodyfile="src/Fragment.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1a2d0974c4d6411fad195e2e04c48721ae" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fragment::r1_end</definition>
+        <argsstring></argsstring>
+        <name>r1_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="38" column="1" bodyfile="src/Fragment.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1a241bae38bc25636b087823d2ea4879f8" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fragment::r2_start</definition>
+        <argsstring></argsstring>
+        <name>r2_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="39" column="1" bodyfile="src/Fragment.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1a13e2711d5175401b1b908d409e02316a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fragment::r2_end</definition>
+        <argsstring></argsstring>
+        <name>r2_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="40" column="1" bodyfile="src/Fragment.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1a530bfc880a0010765ef54f1a9e5dca06" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Fragment::read_length</definition>
+        <argsstring></argsstring>
+        <name>read_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="42" column="1" bodyfile="src/Fragment.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1a83daf7b6db65e62fb60aef6dffc69d32" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fragment::gamete</definition>
+        <argsstring></argsstring>
+        <name>gamete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="45" column="1" bodyfile="src/Fragment.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1a0a2264007e1a03572f2bd49001a07f57" prot="protected" static="no" mutable="no">
+        <type>IntVector</type>
+        <definition>IntVector Fragment::variant_positions</definition>
+        <argsstring></argsstring>
+        <name>variant_positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="48" column="1" bodyfile="src/Fragment.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1aee8b36d3a1a1d9db6aa2d56f5cdabae6" prot="protected" static="no" mutable="no">
+        <type>vector&lt; Genotype &gt;</type>
+        <definition>vector&lt; Genotype &gt; Fragment::genotyped_variants</definition>
+        <argsstring></argsstring>
+        <name>genotyped_variants</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="49" column="1" bodyfile="src/Fragment.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1ac2ec9549f18945133be4396d62431694" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_hotspot" kindref="compound">Hotspot</ref> const  &amp;</type>
+        <definition>Hotspot const&amp; Fragment::ref_hotspot</definition>
+        <argsstring></argsstring>
+        <name>ref_hotspot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="52" column="1" bodyfile="src/Fragment.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fragment_1ac73054faebcc154000bd1f022341e191" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_recombination__event" kindref="compound">Recombination_event</ref> const  &amp;</type>
+        <definition>Recombination_event const&amp; Fragment::ref_recomb_event</definition>
+        <argsstring></argsstring>
+        <name>ref_recomb_event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="55" column="1" bodyfile="src/Fragment.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_fragment_1aa7da512e587fa97a7654dcad2f52e01b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Fragment::Fragment</definition>
+        <argsstring>(Hotspot const &amp;hotspot, Recombination_event const &amp;recomb_event, unsigned int read_length)</argsstring>
+        <name>Fragment</name>
+        <param>
+          <type><ref refid="class_hotspot" kindref="compound">Hotspot</ref> const &amp;</type>
+          <declname>hotspot</declname>
+        </param>
+        <param>
+          <type><ref refid="class_recombination__event" kindref="compound">Recombination_event</ref> const &amp;</type>
+          <declname>recomb_event</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>read_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="18" column="1" bodyfile="src/Fragment.cpp" bodystart="13" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fragment_1a786e9b3d903c0769d8d5f5b0da57a06a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const string &amp;</type>
+        <definition>const string &amp; Fragment::get_readID</definition>
+        <argsstring>() const</argsstring>
+        <name>get_readID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="63" column="1" bodyfile="src/Fragment.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fragment_1a17a701443830dbe50a8444ed53010b4a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const IntVector &amp;</type>
+        <definition>const IntVector &amp; Fragment::get_variant_positions</definition>
+        <argsstring>() const</argsstring>
+        <name>get_variant_positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="64" column="1" bodyfile="src/Fragment.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fragment_1a6f567ebc663522ee42c79b108375f799" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const vector&lt; Genotype &gt; &amp;</type>
+        <definition>const vector&lt; Genotype &gt; &amp; Fragment::get_genotyped_variants</definition>
+        <argsstring>() const</argsstring>
+        <name>get_genotyped_variants</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="65" column="1" bodyfile="src/Fragment.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fragment_1a7a5609813ecff823a99e71641daa31c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Fragment::get_counter</definition>
+        <argsstring>() const</argsstring>
+        <name>get_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="66" column="1" bodyfile="src/Fragment.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fragment_1a898778d4167a31eb55e28ac32e4f2121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Fragment::print_hotspot_info</definition>
+        <argsstring>()</argsstring>
+        <name>print_hotspot_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fragment_1a0a7efd717d2eb453f380c261b43cd08d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_bed__line" kindref="compound">Bed_line</ref></type>
+        <definition>Bed_line Fragment::choose_fragment</definition>
+        <argsstring>(Hotspot const &amp;hotspot)</argsstring>
+        <name>choose_fragment</name>
+        <param>
+          <type><ref refid="class_hotspot" kindref="compound">Hotspot</ref> const &amp;</type>
+          <declname>hotspot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Chooses the genotype, using a Bernouilli distribution with probability p of choosing CAST.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>probability</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>probability of choosing CAST. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>genotype: for the giver. Selects randomly the fragment, among all &quot;real&quot; fragments. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hotspot</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_hotspot" kindref="compound">Hotspot</ref> from which the fragment is selected. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: one particular fragment (with <ref refid="struct_bed__line" kindref="compound">Bed_line</ref> coordinates). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="92" column="1" bodyfile="src/Fragment.cpp" bodystart="92" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fragment_1af0b7207f40388ef97fe23bf05930ec59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Fragment::choose_gamete</definition>
+        <argsstring>()</argsstring>
+        <name>choose_gamete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selects randomly the gamete (may be 1 or 2). <simplesect kind="return"><para>: The number of strand (1 or 2). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="99" column="1" bodyfile="src/Fragment.cpp" bodystart="109" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fragment_1afb77967eea24509b2a4a4907eb991f5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntVector</type>
+        <definition>IntVector Fragment::extract_variants_from_hotspot</definition>
+        <argsstring>(Hotspot const &amp;hotspot, int r1_start, int r1_end, int r2_start, int r2_end)</argsstring>
+        <name>extract_variants_from_hotspot</name>
+        <param>
+          <type><ref refid="class_hotspot" kindref="compound">Hotspot</ref> const &amp;</type>
+          <declname>hotspot</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r1_start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r1_end</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r2_start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r2_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extracts variant positions from hotspot. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hotspot</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: <ref refid="class_hotspot" kindref="compound">Hotspot</ref> to which the fragment belongs. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r1_start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start of read 1. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r1_end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: end of read 1. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r2_start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start of read 2. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r2_end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: end of read 2. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="110" column="1" bodyfile="src/Fragment.cpp" bodystart="120" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fragment_1a377530f10a70d0c252bdb6bd4f8b5234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; Genotype &gt;</type>
+        <definition>vector&lt; Genotype &gt; Fragment::extract_genotypes</definition>
+        <argsstring>(IntVector variant_positions, int gamete, int tract_start, int tract_end, Recomb_product recomb_product, Genotype donor)</argsstring>
+        <name>extract_genotypes</name>
+        <param>
+          <type>IntVector</type>
+          <declname>variant_positions</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gamete</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tract_start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tract_end</declname>
+        </param>
+        <param>
+          <type>Recomb_product</type>
+          <declname>recomb_product</declname>
+        </param>
+        <param>
+          <type>Genotype</type>
+          <declname>donor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extract the exact genotypes, based on the position of variants and conversion tract, the type of recombination product (CO/NCO), the chosen gamete and which gamete was the donor in the conversion event. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>variant_positions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of polymorphic positions within the sequenced fragment. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gamete</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Number of the gamete (1 or 2). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tract_start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Start position of the conversion tract. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tract_end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: End position of the conversion tract. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>recomb_product</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Type of recombination product (CO or NCO). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>donor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Donor in the conversion event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: a vector of genotypes (corresponding to the sequenced genotypes of the selected fragment). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Fragment.h" line="133" column="1" bodyfile="src/Fragment.cpp" bodystart="152" bodyend="240"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>Recombination_event</label>
+        <link refid="class_recombination__event"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>ref_hotspot</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Bed_line</label>
+        <link refid="struct_bed__line"/>
+      </node>
+      <node id="6">
+        <label>Hotspot</label>
+        <link refid="class_hotspot"/>
+      </node>
+      <node id="5">
+        <label>Fragment</label>
+        <link refid="class_fragment"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>ref_hotspot</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>fragment_bed</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>ref_recomb_event</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/Fragment.h" line="7" column="1" bodyfile="src/Fragment.h" bodystart="6" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_fragment_1a0a7efd717d2eb453f380c261b43cd08d" prot="public" virt="non-virtual"><scope>Fragment</scope><name>choose_fragment</name></member>
+      <member refid="class_fragment_1af0b7207f40388ef97fe23bf05930ec59" prot="public" virt="non-virtual"><scope>Fragment</scope><name>choose_gamete</name></member>
+      <member refid="class_fragment_1a6d6404d57eb503db630ab5d6122a04ce" prot="private" virt="non-virtual"><scope>Fragment</scope><name>counter</name></member>
+      <member refid="class_fragment_1a377530f10a70d0c252bdb6bd4f8b5234" prot="public" virt="non-virtual"><scope>Fragment</scope><name>extract_genotypes</name></member>
+      <member refid="class_fragment_1afb77967eea24509b2a4a4907eb991f5b" prot="public" virt="non-virtual"><scope>Fragment</scope><name>extract_variants_from_hotspot</name></member>
+      <member refid="class_fragment_1aa7da512e587fa97a7654dcad2f52e01b" prot="public" virt="non-virtual"><scope>Fragment</scope><name>Fragment</name></member>
+      <member refid="class_fragment_1a4aa415a39979a122892f7c2b256f8405" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>fragment_bed</name></member>
+      <member refid="class_fragment_1a05333835ced79a717d6cb58f43646ace" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>fragment_end</name></member>
+      <member refid="class_fragment_1a72b65c46e7a0085ad88b4fc36b1a1d6e" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>fragment_start</name></member>
+      <member refid="class_fragment_1a83daf7b6db65e62fb60aef6dffc69d32" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>gamete</name></member>
+      <member refid="class_fragment_1aee8b36d3a1a1d9db6aa2d56f5cdabae6" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>genotyped_variants</name></member>
+      <member refid="class_fragment_1a7a5609813ecff823a99e71641daa31c1" prot="public" virt="non-virtual"><scope>Fragment</scope><name>get_counter</name></member>
+      <member refid="class_fragment_1a6f567ebc663522ee42c79b108375f799" prot="public" virt="non-virtual"><scope>Fragment</scope><name>get_genotyped_variants</name></member>
+      <member refid="class_fragment_1a786e9b3d903c0769d8d5f5b0da57a06a" prot="public" virt="non-virtual"><scope>Fragment</scope><name>get_readID</name></member>
+      <member refid="class_fragment_1a17a701443830dbe50a8444ed53010b4a" prot="public" virt="non-virtual"><scope>Fragment</scope><name>get_variant_positions</name></member>
+      <member refid="class_fragment_1a898778d4167a31eb55e28ac32e4f2121" prot="public" virt="non-virtual"><scope>Fragment</scope><name>print_hotspot_info</name></member>
+      <member refid="class_fragment_1a2d0974c4d6411fad195e2e04c48721ae" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>r1_end</name></member>
+      <member refid="class_fragment_1a60d6cae384b1f01e52019bcdcefbde66" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>r1_start</name></member>
+      <member refid="class_fragment_1a13e2711d5175401b1b908d409e02316a" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>r2_end</name></member>
+      <member refid="class_fragment_1a241bae38bc25636b087823d2ea4879f8" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>r2_start</name></member>
+      <member refid="class_fragment_1a530bfc880a0010765ef54f1a9e5dca06" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>read_length</name></member>
+      <member refid="class_fragment_1ac2ec9549f18945133be4396d62431694" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>ref_hotspot</name></member>
+      <member refid="class_fragment_1ac73054faebcc154000bd1f022341e191" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>ref_recomb_event</name></member>
+      <member refid="class_fragment_1a0a2264007e1a03572f2bd49001a07f57" prot="protected" virt="non-virtual"><scope>Fragment</scope><name>variant_positions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>src</compoundname>
+    <innerfile refid="_def__types_8h">Def_types.h</innerfile>
+    <innerfile refid="_fragment_8cpp">Fragment.cpp</innerfile>
+    <innerfile refid="_fragment_8h">Fragment.h</innerfile>
+    <innerfile refid="_functions_8cpp">Functions.cpp</innerfile>
+    <innerfile refid="_functions_8h">Functions.h</innerfile>
+    <innerfile refid="_global__variables_8cpp">Global_variables.cpp</innerfile>
+    <innerfile refid="_global__variables_8h">Global_variables.h</innerfile>
+    <innerfile refid="_hotspot_8cpp">Hotspot.cpp</innerfile>
+    <innerfile refid="_hotspot_8h">Hotspot.h</innerfile>
+    <innerfile refid="_inclusions_8h">Inclusions.h</innerfile>
+    <innerfile refid="_libraries_8h">Libraries.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="_recombination__event_8cpp">Recombination_event.cpp</innerfile>
+    <innerfile refid="_recombination__event_8h">Recombination_event.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/"/>
+  </compounddef>
+</doxygen>

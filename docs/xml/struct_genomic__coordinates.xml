@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_genomic__coordinates" kind="struct" language="C++" prot="public">
+    <compoundname>Genomic_coordinates</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_genomic__coordinates_1af8b95b0f52a74be910c6f019be87690a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Genomic_coordinates::chrom</definition>
+        <argsstring></argsstring>
+        <name>chrom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="55" column="1" bodyfile="src/Def_types.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_genomic__coordinates_1a82f9fbf6d38c05c5bbb2ceefedc782ce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Genomic_coordinates::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="56" column="1" bodyfile="src/Def_types.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_genomic__coordinates_1a9ba5009878229e897fec5059f2a57e8b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Genomic_coordinates::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="57" column="1" bodyfile="src/Def_types.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Def_types.h" line="54" column="1" bodyfile="src/Def_types.h" bodystart="54" bodyend="58"/>
+    <listofallmembers>
+      <member refid="struct_genomic__coordinates_1af8b95b0f52a74be910c6f019be87690a" prot="public" virt="non-virtual"><scope>Genomic_coordinates</scope><name>chrom</name></member>
+      <member refid="struct_genomic__coordinates_1a9ba5009878229e897fec5059f2a57e8b" prot="public" virt="non-virtual"><scope>Genomic_coordinates</scope><name>end</name></member>
+      <member refid="struct_genomic__coordinates_1a82f9fbf6d38c05c5bbb2ceefedc782ce" prot="public" virt="non-virtual"><scope>Genomic_coordinates</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

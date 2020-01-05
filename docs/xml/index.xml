@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="struct_bed__line" kind="struct"><name>Bed_line</name>
+    <member refid="struct_bed__line_1a6929a5165ce7483f033ea33477cc5045" kind="variable"><name>chrom</name></member>
+    <member refid="struct_bed__line_1a0cd4bf4cb13f713b34bcc6d89d93b5b2" kind="variable"><name>start</name></member>
+    <member refid="struct_bed__line_1ab51863f0a6fcd60056d0a00756ce47c0" kind="variable"><name>end</name></member>
+    <member refid="struct_bed__line_1a5ce608d60345769ff0776abf47854d3a" kind="variable"><name>ID</name></member>
+  </compound>
+  <compound refid="struct_coord__fragments" kind="struct"><name>Coord_fragments</name>
+    <member refid="struct_coord__fragments_1a9e938a77973f78423fe729d7cb46984f" kind="variable"><name>name</name></member>
+    <member refid="struct_coord__fragments_1a9d623b4bfd642fbfb5e54760b9829a76" kind="variable"><name>start</name></member>
+    <member refid="struct_coord__fragments_1a9216e0fbdb2b13ab63dd92acb716fdc8" kind="variable"><name>end</name></member>
+  </compound>
+  <compound refid="class_fragment" kind="class"><name>Fragment</name>
+    <member refid="class_fragment_1a6d6404d57eb503db630ab5d6122a04ce" kind="variable"><name>counter</name></member>
+    <member refid="class_fragment_1a4aa415a39979a122892f7c2b256f8405" kind="variable"><name>fragment_bed</name></member>
+    <member refid="class_fragment_1a72b65c46e7a0085ad88b4fc36b1a1d6e" kind="variable"><name>fragment_start</name></member>
+    <member refid="class_fragment_1a05333835ced79a717d6cb58f43646ace" kind="variable"><name>fragment_end</name></member>
+    <member refid="class_fragment_1a60d6cae384b1f01e52019bcdcefbde66" kind="variable"><name>r1_start</name></member>
+    <member refid="class_fragment_1a2d0974c4d6411fad195e2e04c48721ae" kind="variable"><name>r1_end</name></member>
+    <member refid="class_fragment_1a241bae38bc25636b087823d2ea4879f8" kind="variable"><name>r2_start</name></member>
+    <member refid="class_fragment_1a13e2711d5175401b1b908d409e02316a" kind="variable"><name>r2_end</name></member>
+    <member refid="class_fragment_1a530bfc880a0010765ef54f1a9e5dca06" kind="variable"><name>read_length</name></member>
+    <member refid="class_fragment_1a83daf7b6db65e62fb60aef6dffc69d32" kind="variable"><name>gamete</name></member>
+    <member refid="class_fragment_1a0a2264007e1a03572f2bd49001a07f57" kind="variable"><name>variant_positions</name></member>
+    <member refid="class_fragment_1aee8b36d3a1a1d9db6aa2d56f5cdabae6" kind="variable"><name>genotyped_variants</name></member>
+    <member refid="class_fragment_1ac2ec9549f18945133be4396d62431694" kind="variable"><name>ref_hotspot</name></member>
+    <member refid="class_fragment_1ac73054faebcc154000bd1f022341e191" kind="variable"><name>ref_recomb_event</name></member>
+    <member refid="class_fragment_1aa7da512e587fa97a7654dcad2f52e01b" kind="function"><name>Fragment</name></member>
+    <member refid="class_fragment_1a786e9b3d903c0769d8d5f5b0da57a06a" kind="function"><name>get_readID</name></member>
+    <member refid="class_fragment_1a17a701443830dbe50a8444ed53010b4a" kind="function"><name>get_variant_positions</name></member>
+    <member refid="class_fragment_1a6f567ebc663522ee42c79b108375f799" kind="function"><name>get_genotyped_variants</name></member>
+    <member refid="class_fragment_1a7a5609813ecff823a99e71641daa31c1" kind="function"><name>get_counter</name></member>
+    <member refid="class_fragment_1a898778d4167a31eb55e28ac32e4f2121" kind="function"><name>print_hotspot_info</name></member>
+    <member refid="class_fragment_1a0a7efd717d2eb453f380c261b43cd08d" kind="function"><name>choose_fragment</name></member>
+    <member refid="class_fragment_1af0b7207f40388ef97fe23bf05930ec59" kind="function"><name>choose_gamete</name></member>
+    <member refid="class_fragment_1afb77967eea24509b2a4a4907eb991f5b" kind="function"><name>extract_variants_from_hotspot</name></member>
+    <member refid="class_fragment_1a377530f10a70d0c252bdb6bd4f8b5234" kind="function"><name>extract_genotypes</name></member>
+  </compound>
+  <compound refid="struct_genomic__coordinates" kind="struct"><name>Genomic_coordinates</name>
+    <member refid="struct_genomic__coordinates_1af8b95b0f52a74be910c6f019be87690a" kind="variable"><name>chrom</name></member>
+    <member refid="struct_genomic__coordinates_1a82f9fbf6d38c05c5bbb2ceefedc782ce" kind="variable"><name>start</name></member>
+    <member refid="struct_genomic__coordinates_1a9ba5009878229e897fec5059f2a57e8b" kind="variable"><name>end</name></member>
+  </compound>
+  <compound refid="class_hotspot" kind="class"><name>Hotspot</name>
+    <member refid="class_hotspot_1aa9e44f2ce59e3c057a6a62d711f2cdfb" kind="variable"><name>ID</name></member>
+    <member refid="class_hotspot_1a2726462d49a8903a1540ff4ca9f78620" kind="variable"><name>chr</name></member>
+    <member refid="class_hotspot_1a07b499b253298292fc7ab457edd6f544" kind="variable"><name>start</name></member>
+    <member refid="class_hotspot_1ab753ac00757dcb77531d87c4de848e0d" kind="variable"><name>end</name></member>
+    <member refid="class_hotspot_1aed60720b5690e94b5af1dc93c82239f6" kind="variable"><name>variant_positions</name></member>
+    <member refid="class_hotspot_1a77c2b8063034cfc9ed0a5dc2652d2bf1" kind="variable"><name>B6_alleles</name></member>
+    <member refid="class_hotspot_1a9df778ca93520eefc60b6e4505536e8b" kind="variable"><name>CAST_alleles</name></member>
+    <member refid="class_hotspot_1a9223ebd3e7ee4598d914e9a74300ea78" kind="variable"><name>DSB</name></member>
+    <member refid="class_hotspot_1a2143f67bcf5198108077e38e4b061114" kind="variable"><name>vec_frag_pos</name></member>
+    <member refid="class_hotspot_1a34eac4b8bd3273feea0de74f1ca17cf5" kind="function"><name>Hotspot</name></member>
+    <member refid="class_hotspot_1abb22df75679422cb7ba9840d5a291db3" kind="function"><name>get_DSB</name></member>
+    <member refid="class_hotspot_1adee28c2c36a5a3ebec9146694170a8ea" kind="function"><name>get_coord_fragments</name></member>
+    <member refid="class_hotspot_1a525cc4b3004090ff348fa126f10630c9" kind="function"><name>get_coordinates</name></member>
+    <member refid="class_hotspot_1aa2b90586a2e66acf7faeb70e15c72f45" kind="function"><name>get_variants</name></member>
+    <member refid="class_hotspot_1a123e0b631e0901dd7b2d78a0ffe4c04f" kind="function"><name>get_ID</name></member>
+    <member refid="class_hotspot_1acb44999a2ceddf2a7431d7c4493743a5" kind="function"><name>get_name_to_write</name></member>
+    <member refid="class_hotspot_1abb4bf2ae6bce98d6dfa1997bbceebe33" kind="function"><name>get_B6_alleles</name></member>
+    <member refid="class_hotspot_1ad2325fcf8b426a7b5e223fb7bc40cd0b" kind="function"><name>get_CAST_alleles</name></member>
+    <member refid="class_hotspot_1ad054dfef62c85f695a8dbb6909bb752a" kind="function"><name>extract_fragments_coordinates</name></member>
+    <member refid="class_hotspot_1abadca6037200a03cde2ef1401641886d" kind="function"><name>print_fragments</name></member>
+    <member refid="class_hotspot_1ab8ac666ae3fc8013188070eefae5e1cc" kind="function"><name>extract_variants</name></member>
+  </compound>
+  <compound refid="struct_list___hash" kind="struct"><name>List_Hash</name>
+    <member refid="struct_list___hash_1a63aefb1271b9bd794b7e6544fc2c943f" kind="variable"><name>hash_param_settings</name></member>
+    <member refid="struct_list___hash_1a5dce3125bc0cbae69798a62e1b365317" kind="variable"><name>hash_param_COs</name></member>
+    <member refid="struct_list___hash_1a32b5a5b543f5070c3104c83f91bfff16" kind="variable"><name>hash_param_NCOs</name></member>
+  </compound>
+  <compound refid="struct_list__variants" kind="struct"><name>List_variants</name>
+    <member refid="struct_list__variants_1af4de926961aead48d57e898b475e78b1" kind="variable"><name>vect_pos</name></member>
+    <member refid="struct_list__variants_1a74d0e67c9059989e6c46e41910360b73" kind="variable"><name>vect_B6_alleles</name></member>
+    <member refid="struct_list__variants_1ad924ca6d0f22ee49baa1dc939c3ddd9f" kind="variable"><name>vect_CAST_alleles</name></member>
+  </compound>
+  <compound refid="struct_param__settings" kind="struct"><name>Param_settings</name>
+    <member refid="struct_param__settings_1a89ebc38791162634e224222d031f9fc5" kind="variable"><name>sel_method</name></member>
+    <member refid="struct_param__settings_1a9e7bf7f9d64ecc3cf3960720e25bcf56" kind="variable"><name>CO_nb</name></member>
+    <member refid="struct_param__settings_1a9316327a4b7c4d9ae796cf317f68ecbd" kind="variable"><name>CO_tl_mean</name></member>
+    <member refid="struct_param__settings_1aea70fbc0f65058a5688ccc3c747fac5c" kind="variable"><name>CO_tl_sd</name></member>
+    <member refid="struct_param__settings_1ad9d040a8e3eaa4f014af9f98bc8b6cd1" kind="variable"><name>CO_asym</name></member>
+    <member refid="struct_param__settings_1a57a12eecf5649c2a352555099f5181ff" kind="variable"><name>NCO_nb</name></member>
+    <member refid="struct_param__settings_1a6c8ea23424a4a8c3f52f26ebd16ddf83" kind="variable"><name>NCO_tl_mean</name></member>
+    <member refid="struct_param__settings_1aaf21b8dda94fe02c46cccf0b0463558f" kind="variable"><name>NCO_tl_sd</name></member>
+    <member refid="struct_param__settings_1a5cf188d877f976a966b729408f527209" kind="variable"><name>NCO_asym</name></member>
+    <member refid="struct_param__settings_1ad96c1b69985c74707da8401c5fe54d57" kind="variable"><name>prob_CAST</name></member>
+    <member refid="struct_param__settings_1a0940abc023a75de8cf3282e914e17acb" kind="variable"><name>nb_frag</name></member>
+  </compound>
+  <compound refid="class_recombination__event" kind="class"><name>Recombination_event</name>
+    <member refid="class_recombination__event_1a64e7ea43ba2651530a6cb73ef580f4b0" kind="variable"><name>counter</name></member>
+    <member refid="class_recombination__event_1a723302f94878b2cd9e36e61673dc0207" kind="variable"><name>tract_length</name></member>
+    <member refid="class_recombination__event_1a91c1a7cb85b376da03e5b26c765d3fde" kind="variable"><name>tract_start</name></member>
+    <member refid="class_recombination__event_1a7161ea1c6f31a9b50247fb04f0794351" kind="variable"><name>tract_end</name></member>
+    <member refid="class_recombination__event_1a8f4442588abc4bfbdf9524d1cb075cd5" kind="variable"><name>giver</name></member>
+    <member refid="class_recombination__event_1afc62b2f310e75ab9d7c561b10f0a0297" kind="variable"><name>asymmetry</name></member>
+    <member refid="class_recombination__event_1a563f07a81f811614975efb68bea17ada" kind="variable"><name>recomb_product</name></member>
+    <member refid="class_recombination__event_1a05e18a50a6c816a6b7677416c4f2f67d" kind="variable"><name>ref_hotspot</name></member>
+    <member refid="class_recombination__event_1aff04a25d5b7907793b1239e68ca72669" kind="function"><name>Recombination_event</name></member>
+    <member refid="class_recombination__event_1a6762f4cf6e4af6feae93024863608fc6" kind="function"><name>get_tract_length</name></member>
+    <member refid="class_recombination__event_1a2ff116f519448989cb86ab3bca3cf8a8" kind="function"><name>get_tract_start</name></member>
+    <member refid="class_recombination__event_1ac34f5d0e4e413cee6bc322c5a08e8f76" kind="function"><name>get_giver</name></member>
+    <member refid="class_recombination__event_1ae1d9eae03c24c1f42d8f5b2b4cce0960" kind="function"><name>get_recomb_product</name></member>
+    <member refid="class_recombination__event_1a8dd08f09715314c0464c8957c91a397d" kind="function"><name>get_counter</name></member>
+    <member refid="class_recombination__event_1a7e9e4ee1205ba8b7617f678e512e852e" kind="function"><name>print_hotspot_info</name></member>
+    <member refid="class_recombination__event_1a1e2144e6c77309681613068b418ec949" kind="function"><name>choose_length</name></member>
+    <member refid="class_recombination__event_1a452bf9940c36aaf1063ffc62a06b055f" kind="function"><name>choose_giver</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_def__types_8h" kind="file"><name>Def_types.h</name>
+    <member refid="_def__types_8h_1aeffe83b3b2cbd05f847793456673f2c2" kind="enum"><name>Genotype</name></member>
+    <member refid="_def__types_8h_1aeffe83b3b2cbd05f847793456673f2c2a0eb7e951c71ad8f7ea59d513e8d57747" kind="enumvalue"><name>B6</name></member>
+    <member refid="_def__types_8h_1aeffe83b3b2cbd05f847793456673f2c2a4e12176f39ac6a9741e69cce2a909a02" kind="enumvalue"><name>CAST</name></member>
+    <member refid="_def__types_8h_1a9d5c7f0aeb222a16cdbee7bb3593cd5e" kind="enum"><name>Recomb_product</name></member>
+    <member refid="_def__types_8h_1a9d5c7f0aeb222a16cdbee7bb3593cd5ea69c66d3c1e936dd7d39824492bb31c57" kind="enumvalue"><name>CO</name></member>
+    <member refid="_def__types_8h_1a9d5c7f0aeb222a16cdbee7bb3593cd5eadd63453d19dea509ed6ba126e094febd" kind="enumvalue"><name>NCO</name></member>
+    <member refid="_def__types_8h_1aa0bead09d34e02bdec564e49e79fdbce" kind="typedef"><name>IntVector</name></member>
+    <member refid="_def__types_8h_1aa4bdf3e5412beec136c2be957c4fb382" kind="typedef"><name>StringVector</name></member>
+    <member refid="_def__types_8h_1ad41d4e02ec6fe1791d7466016ffee6b1" kind="typedef"><name>Vector_fragments</name></member>
+    <member refid="_def__types_8h_1aa2d78f6c1bd6c25aeefffe1a4933e6d9" kind="typedef"><name>CounterMap</name></member>
+    <member refid="_def__types_8h_1a64ae8716daf2d22212d096733b47d971" kind="variable"><name>Genot_to_string</name></member>
+    <member refid="_def__types_8h_1a5260fe39c86851a0df72b27d20acbcbc" kind="variable"><name>String_to_genot</name></member>
+    <member refid="_def__types_8h_1afabb9877b2195c7d108f26b0ad47885a" kind="variable"><name>Recomb_to_string</name></member>
+  </compound>
+  <compound refid="_fragment_8cpp" kind="file"><name>Fragment.cpp</name>
+  </compound>
+  <compound refid="_fragment_8h" kind="file"><name>Fragment.h</name>
+  </compound>
+  <compound refid="_functions_8cpp" kind="file"><name>Functions.cpp</name>
+    <member refid="_functions_8cpp_1a2769bc584affdd8be3e168dd1556f559" kind="function"><name>bed_file_to_vector</name></member>
+    <member refid="_functions_8cpp_1a924a6f42304f85f9831860d9d484d19b" kind="function"><name>substr_line_from_bed</name></member>
+    <member refid="_functions_8cpp_1a4d21374bae64712d8eec42986a25edfd" kind="function"><name>extract_info_from_line</name></member>
+    <member refid="_functions_8cpp_1aa0dea1482a6dec2ef2fcb7b47b1ad19b" kind="function"><name>create_vector_from_file</name></member>
+    <member refid="_functions_8cpp_1a4efa3a2691901e05cb1dcf208bd792c6" kind="function"><name>random_sample_from_string_vector</name></member>
+    <member refid="_functions_8cpp_1ab6f13256790b90251d553b81b65e5ddc" kind="function"><name>random_sample_from_weighted_string_vector</name></member>
+    <member refid="_functions_8cpp_1a8170e06ebdd22117524580e776f719b2" kind="function"><name>vector_elements_to_counter_map</name></member>
+    <member refid="_functions_8cpp_1ac40d37c6cf58b016bd288ad133ce7cfd" kind="function"><name>extract_settings_from_line</name></member>
+    <member refid="_functions_8cpp_1a5caad4d3405b37bcf5249fc4f4c1cd60" kind="function"><name>get_parameters</name></member>
+    <member refid="_functions_8cpp_1aee5d029271262231b1fc47fd3ab1e40b" kind="function"><name>modify_weight_vector_from_file</name></member>
+    <member refid="_functions_8cpp_1af6ab4110d9e2d87de4936f69b8adcda4" kind="function"><name>select_hotspots</name></member>
+    <member refid="_functions_8cpp_1a3c428165a24187921d8e887b8dce1a75" kind="function"><name>empty_output_folder</name></member>
+    <member refid="_functions_8cpp_1a88366c6dcae443afb77660a224d61d7d" kind="function"><name>initialise_output_files</name></member>
+    <member refid="_functions_8cpp_1a743d32a9903cbcd517524c5b50617815" kind="function"><name>write_line_to_file</name></member>
+    <member refid="_functions_8cpp_1a6e19c5c60657aa219ab5870ab55d3f07" kind="function"><name>vector_to_string</name></member>
+    <member refid="_functions_8cpp_1a1739dfb03aa3b29e501a2101aa72447c" kind="function"><name>vector_to_string</name></member>
+    <member refid="_functions_8cpp_1a536ffdecd75e7908a20172241e28938a" kind="function"><name>vector_to_string</name></member>
+    <member refid="_functions_8cpp_1a2f4c82beaba0455dd2d3e7345a758160" kind="function"><name>count_in_vector</name></member>
+    <member refid="_functions_8cpp_1a31cf44833f7231cfa68a1bd13d9e7d99" kind="function"><name>extract_indexes_from_vector</name></member>
+    <member refid="_functions_8cpp_1ae268b83116da2c9decfbcd02aaeed584" kind="function"><name>subset_vector_with_indices</name></member>
+    <member refid="_functions_8cpp_1abcdc0a7f9108d0f6899cd845c02b638b" kind="function"><name>extract_alleles</name></member>
+    <member refid="_functions_8cpp_1ad0da5877ed092e4b8456d8cf52f77b80" kind="function"><name>get_mut_types</name></member>
+    <member refid="_functions_8cpp_1acfbe126abbe790c21bc2ef2664e70a22" kind="function"><name>create_vec_values_vector</name></member>
+    <member refid="_functions_8cpp_1a68760db4a3bb38355f720ac696271264" kind="function"><name>extract_type_from_genot</name></member>
+  </compound>
+  <compound refid="_functions_8h" kind="file"><name>Functions.h</name>
+    <member refid="_functions_8h_1a2769bc584affdd8be3e168dd1556f559" kind="function"><name>bed_file_to_vector</name></member>
+    <member refid="_functions_8h_1acdc3b17459ba3197245f6bf8a09cbb26" kind="function"><name>substr_line_from_bed</name></member>
+    <member refid="_functions_8h_1a7a7c7736411d9a74df01777d6db828c1" kind="function"><name>extract_info_from_line</name></member>
+    <member refid="_functions_8h_1aa0dea1482a6dec2ef2fcb7b47b1ad19b" kind="function"><name>create_vector_from_file</name></member>
+    <member refid="_functions_8h_1a4efa3a2691901e05cb1dcf208bd792c6" kind="function"><name>random_sample_from_string_vector</name></member>
+    <member refid="_functions_8h_1ab6f13256790b90251d553b81b65e5ddc" kind="function"><name>random_sample_from_weighted_string_vector</name></member>
+    <member refid="_functions_8h_1a8170e06ebdd22117524580e776f719b2" kind="function"><name>vector_elements_to_counter_map</name></member>
+    <member refid="_functions_8h_1a69639a0b2e901da49a7d401decb65891" kind="function"><name>extract_settings_from_line</name></member>
+    <member refid="_functions_8h_1a038bac1a199c03d6a1da12e8cf0bd68f" kind="function"><name>get_parameters</name></member>
+    <member refid="_functions_8h_1a4f623611bdcfb3ea421e42f7bc2ad627" kind="function"><name>modify_weight_vector_from_file</name></member>
+    <member refid="_functions_8h_1ad7a9349c899ecb55d078e5a012087c19" kind="function"><name>select_hotspots</name></member>
+    <member refid="_functions_8h_1a3c428165a24187921d8e887b8dce1a75" kind="function"><name>empty_output_folder</name></member>
+    <member refid="_functions_8h_1a88366c6dcae443afb77660a224d61d7d" kind="function"><name>initialise_output_files</name></member>
+    <member refid="_functions_8h_1a6ba464b9b402e0ec95bbece2e849a9d3" kind="function"><name>write_line_to_file</name></member>
+    <member refid="_functions_8h_1a0eb4e44a8ad202d7b4abe4f1641c4349" kind="function"><name>vector_to_string</name></member>
+    <member refid="_functions_8h_1a01ed38ee0ccc85cb2fcedbd472109bc5" kind="function"><name>vector_to_string</name></member>
+    <member refid="_functions_8h_1a96604fa4aefa7e9cc8507388bbf0943e" kind="function"><name>vector_to_string</name></member>
+    <member refid="_functions_8h_1a2f4c82beaba0455dd2d3e7345a758160" kind="function"><name>count_in_vector</name></member>
+    <member refid="_functions_8h_1a31cf44833f7231cfa68a1bd13d9e7d99" kind="function"><name>extract_indexes_from_vector</name></member>
+    <member refid="_functions_8h_1ae268b83116da2c9decfbcd02aaeed584" kind="function"><name>subset_vector_with_indices</name></member>
+    <member refid="_functions_8h_1abcdc0a7f9108d0f6899cd845c02b638b" kind="function"><name>extract_alleles</name></member>
+    <member refid="_functions_8h_1ad0da5877ed092e4b8456d8cf52f77b80" kind="function"><name>get_mut_types</name></member>
+    <member refid="_functions_8h_1acfbe126abbe790c21bc2ef2664e70a22" kind="function"><name>create_vec_values_vector</name></member>
+    <member refid="_functions_8h_1a68760db4a3bb38355f720ac696271264" kind="function"><name>extract_type_from_genot</name></member>
+  </compound>
+  <compound refid="_global__variables_8cpp" kind="file"><name>Global_variables.cpp</name>
+    <member refid="_global__variables_8cpp_1aaf6ab885c6d0650cfaceed29c9312362" kind="variable"><name>HEADER_FRAGMENTS</name></member>
+    <member refid="_global__variables_8cpp_1a7d11e4514e5d30eae3f6e3bda6edd768" kind="function"><name>GENERATOR</name></member>
+  </compound>
+  <compound refid="_global__variables_8h" kind="file"><name>Global_variables.h</name>
+    <member refid="_global__variables_8h_1a61567ca0adde55483d9465333d1456a7" kind="variable"><name>GENERATOR</name></member>
+    <member refid="_global__variables_8h_1aaf6ab885c6d0650cfaceed29c9312362" kind="variable"><name>HEADER_FRAGMENTS</name></member>
+  </compound>
+  <compound refid="_hotspot_8cpp" kind="file"><name>Hotspot.cpp</name>
+  </compound>
+  <compound refid="_hotspot_8h" kind="file"><name>Hotspot.h</name>
+  </compound>
+  <compound refid="_inclusions_8h" kind="file"><name>Inclusions.h</name>
+  </compound>
+  <compound refid="_libraries_8h" kind="file"><name>Libraries.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_recombination__event_8cpp" kind="file"><name>Recombination_event.cpp</name>
+  </compound>
+  <compound refid="_recombination__event_8h" kind="file"><name>Recombination_event.h</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

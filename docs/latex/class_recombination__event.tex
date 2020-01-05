@@ -1,0 +1,165 @@
+\hypertarget{class_recombination__event}{}\section{Recombination\+\_\+event Class Reference}
+\label{class_recombination__event}\index{Recombination\+\_\+event@{Recombination\+\_\+event}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_recombination__event_aff04a25d5b7907793b1239e68ca72669}\label{class_recombination__event_aff04a25d5b7907793b1239e68ca72669}} 
+{\bfseries Recombination\+\_\+event} (\mbox{\hyperlink{class_hotspot}{Hotspot}} const \&hotspot, double asymmetry, double param1, double param2, double probability\+\_\+\+C\+A\+ST, Recomb\+\_\+product recomb\+\_\+product)
+\item 
+\mbox{\Hypertarget{class_recombination__event_a6762f4cf6e4af6feae93024863608fc6}\label{class_recombination__event_a6762f4cf6e4af6feae93024863608fc6}} 
+int {\bfseries get\+\_\+tract\+\_\+length} () const
+\item 
+\mbox{\Hypertarget{class_recombination__event_a2ff116f519448989cb86ab3bca3cf8a8}\label{class_recombination__event_a2ff116f519448989cb86ab3bca3cf8a8}} 
+int {\bfseries get\+\_\+tract\+\_\+start} () const
+\item 
+\mbox{\Hypertarget{class_recombination__event_ac34f5d0e4e413cee6bc322c5a08e8f76}\label{class_recombination__event_ac34f5d0e4e413cee6bc322c5a08e8f76}} 
+Genotype {\bfseries get\+\_\+giver} () const
+\item 
+\mbox{\Hypertarget{class_recombination__event_ae1d9eae03c24c1f42d8f5b2b4cce0960}\label{class_recombination__event_ae1d9eae03c24c1f42d8f5b2b4cce0960}} 
+Recomb\+\_\+product {\bfseries get\+\_\+recomb\+\_\+product} () const
+\item 
+\mbox{\Hypertarget{class_recombination__event_a8dd08f09715314c0464c8957c91a397d}\label{class_recombination__event_a8dd08f09715314c0464c8957c91a397d}} 
+int {\bfseries get\+\_\+counter} () const
+\item 
+\mbox{\Hypertarget{class_recombination__event_a7e9e4ee1205ba8b7617f678e512e852e}\label{class_recombination__event_a7e9e4ee1205ba8b7617f678e512e852e}} 
+void {\bfseries print\+\_\+hotspot\+\_\+info} ()
+\item 
+int \mbox{\hyperlink{class_recombination__event_a1e2144e6c77309681613068b418ec949}{choose\+\_\+length}} (double tract\+\_\+length\+\_\+mean, double tract\+\_\+length\+\_\+sd, Recomb\+\_\+product recomb\+\_\+product)
+\item 
+Genotype \mbox{\hyperlink{class_recombination__event_a452bf9940c36aaf1063ffc62a06b055f}{choose\+\_\+giver}} (double probability)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_recombination__event_a723302f94878b2cd9e36e61673dc0207}\label{class_recombination__event_a723302f94878b2cd9e36e61673dc0207}} 
+int {\bfseries tract\+\_\+length}
+\item 
+\mbox{\Hypertarget{class_recombination__event_a91c1a7cb85b376da03e5b26c765d3fde}\label{class_recombination__event_a91c1a7cb85b376da03e5b26c765d3fde}} 
+int {\bfseries tract\+\_\+start}
+\item 
+\mbox{\Hypertarget{class_recombination__event_a7161ea1c6f31a9b50247fb04f0794351}\label{class_recombination__event_a7161ea1c6f31a9b50247fb04f0794351}} 
+int {\bfseries tract\+\_\+end}
+\item 
+\mbox{\Hypertarget{class_recombination__event_a8f4442588abc4bfbdf9524d1cb075cd5}\label{class_recombination__event_a8f4442588abc4bfbdf9524d1cb075cd5}} 
+Genotype {\bfseries giver}
+\item 
+\mbox{\Hypertarget{class_recombination__event_afc62b2f310e75ab9d7c561b10f0a0297}\label{class_recombination__event_afc62b2f310e75ab9d7c561b10f0a0297}} 
+double {\bfseries asymmetry}
+\item 
+\mbox{\Hypertarget{class_recombination__event_a563f07a81f811614975efb68bea17ada}\label{class_recombination__event_a563f07a81f811614975efb68bea17ada}} 
+Recomb\+\_\+product {\bfseries recomb\+\_\+product}
+\item 
+\mbox{\Hypertarget{class_recombination__event_a05e18a50a6c816a6b7677416c4f2f67d}\label{class_recombination__event_a05e18a50a6c816a6b7677416c4f2f67d}} 
+\mbox{\hyperlink{class_hotspot}{Hotspot}} const  \& {\bfseries ref\+\_\+hotspot}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file Recombination\+\_\+event.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_recombination__event_a452bf9940c36aaf1063ffc62a06b055f}\label{class_recombination__event_a452bf9940c36aaf1063ffc62a06b055f}} 
+\index{Recombination\+\_\+event@{Recombination\+\_\+event}!choose\+\_\+giver@{choose\+\_\+giver}}
+\index{choose\+\_\+giver@{choose\+\_\+giver}!Recombination\+\_\+event@{Recombination\+\_\+event}}
+\subsubsection{\texorpdfstring{choose\+\_\+giver()}{choose\_giver()}}
+{\footnotesize\ttfamily Genotype Recombination\+\_\+event\+::choose\+\_\+giver (\begin{DoxyParamCaption}\item[{double}]{probability }\end{DoxyParamCaption})}
+
+Chooses the genotype, using a Bernouilli distribution with probability p of choosing C\+A\+ST.
+
+
+\begin{DoxyParams}{Parameters}
+{\em probability} & probability of choosing C\+A\+ST. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+genotype\+: for the giver. 
+\end{DoxyReturn}
+
+
+Definition at line 171 of file Recombination\+\_\+event.\+cpp.
+
+
+\begin{DoxyCode}
+174 \{
+175     \textcolor{comment}{// Random generate from the binomial distribution}
+176     bernoulli\_distribution distribution (probability);
+177     \textcolor{keywordflow}{if} (distribution (GENERATOR) ) \{
+178         \textcolor{keywordflow}{return} CAST;
+179     \}
+180     \textcolor{keywordflow}{return} B6;
+181     \textcolor{comment}{// ATTENTION AJOUTER: SI -1 => LIRE DANS FICHIER "EXPECTED"}
+182 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_recombination__event_a1e2144e6c77309681613068b418ec949}\label{class_recombination__event_a1e2144e6c77309681613068b418ec949}} 
+\index{Recombination\+\_\+event@{Recombination\+\_\+event}!choose\+\_\+length@{choose\+\_\+length}}
+\index{choose\+\_\+length@{choose\+\_\+length}!Recombination\+\_\+event@{Recombination\+\_\+event}}
+\subsubsection{\texorpdfstring{choose\+\_\+length()}{choose\_length()}}
+{\footnotesize\ttfamily int Recombination\+\_\+event\+::choose\+\_\+length (\begin{DoxyParamCaption}\item[{double}]{tract\+\_\+length\+\_\+mean,  }\item[{double}]{tract\+\_\+length\+\_\+sd,  }\item[{Recomb\+\_\+product}]{recomb\+\_\+product }\end{DoxyParamCaption})}
+
+Chooses length of the conversion tract, depending on type of event (CO or N\+CO), and mean and sd tract lengths for the conversion tract product.
+
+
+\begin{DoxyParams}{Parameters}
+{\em tract\+\_\+length\+\_\+mean} & Mean tract length. \\
+\hline
+{\em tract\+\_\+length\+\_\+sd} & \+: Standard error of the tract length. \\
+\hline
+{\em recomb\+\_\+product} & \+: CO or N\+CO.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: length of the conversion tract. 
+\end{DoxyReturn}
+
+
+Definition at line 131 of file Recombination\+\_\+event.\+cpp.
+
+
+\begin{DoxyCode}
+136 \{ 
+137     \textcolor{comment}{// If CO: choose length of CO from a normal distribution.}
+138     \textcolor{keywordflow}{if} (recomb\_product == CO) \{
+139         normal\_distribution < double > distribution (
+140                 tract\_length\_mean, 
+141                 tract\_length\_sd
+142                 );
+143         \textcolor{keywordtype}{double} chosen\_length \{ distribution (GENERATOR) \};
+144         \textcolor{keywordflow}{return} (\textcolor{keywordtype}{int}) chosen\_length;
+145     \}
+146 
+147     \textcolor{comment}{// If NCO: choose length of NCO from a gamma distribution.}
+148     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (recomb\_product == NCO) \{
+149         \textcolor{comment}{// Define parameters for the gamma distribution}
+150         \textcolor{comment}{//The estimates obtained this way are method of moments estimates. In particular, we know that
+       E(X)=αθE(X)=αθ and Var[X]=αθ2Var[X]=αθ2 for a gamma distribution with shape parameter αα and scale parameter θθ
+       (see wikipedia). Solving these equations for αα and θθ yields α=E[X]2/Var[X]α=E[X]2/Var[X] and
+       θ=Var[X]/E[X]θ=Var[X]/E[X]. Now substitute the sample estimates to obtain the method of moments estimates α̂
+       =x¯2/s2α^=x¯2/s2 and θ̂ =s2/x¯θ^=s2/x¯.}
+151         \textcolor{comment}{// Estimate alpha and beta parameters}
+152         \textcolor{comment}{// alpha = E(X)**2/Var(X)}
+153         \textcolor{comment}{// beta = Var(X)/E(X)}
+154         \textcolor{keywordtype}{double} alpha \{ pow (tract\_length\_mean, 2) / pow (tract\_length\_sd, 2) \};
+155         \textcolor{keywordtype}{double} beta \{ pow (tract\_length\_sd, 2) / tract\_length\_mean \};
+156 
+157         gamma\_distribution < double > distribution (alpha, beta) ;
+158         \textcolor{keywordtype}{double} chosen\_length \{ distribution (GENERATOR) \};
+159         \textcolor{keywordflow}{return} (\textcolor{keywordtype}{int}) chosen\_length;
+160     \}
+161 
+162     \textcolor{comment}{// If none: Error}
+163     \textcolor{keywordflow}{else} \{
+164         cout << \textcolor{stringliteral}{"\(\backslash\)nERROR: wrong type in Recombination\_event::choose\_length\(\backslash\)n"};
+165         \textcolor{keywordflow}{throw} exception();
+166     \}
+167 \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Recombination\+\_\+event.\+h\item 
+src/Recombination\+\_\+event.\+cpp\end{DoxyCompactItemize}

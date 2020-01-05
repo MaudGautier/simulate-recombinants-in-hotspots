@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_recombination__event" kind="class" language="C++" prot="public">
+    <compoundname>Recombination_event</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_recombination__event_1a64e7ea43ba2651530a6cb73ef580f4b0" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Recombination_event::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="9" column="1" bodyfile="src/Recombination_event.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_recombination__event_1a723302f94878b2cd9e36e61673dc0207" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Recombination_event::tract_length</definition>
+        <argsstring></argsstring>
+        <name>tract_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="44" column="1" bodyfile="src/Recombination_event.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_recombination__event_1a91c1a7cb85b376da03e5b26c765d3fde" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Recombination_event::tract_start</definition>
+        <argsstring></argsstring>
+        <name>tract_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="45" column="1" bodyfile="src/Recombination_event.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_recombination__event_1a7161ea1c6f31a9b50247fb04f0794351" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Recombination_event::tract_end</definition>
+        <argsstring></argsstring>
+        <name>tract_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="46" column="1" bodyfile="src/Recombination_event.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_recombination__event_1a8f4442588abc4bfbdf9524d1cb075cd5" prot="protected" static="no" mutable="no">
+        <type>Genotype</type>
+        <definition>Genotype Recombination_event::giver</definition>
+        <argsstring></argsstring>
+        <name>giver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="47" column="1" bodyfile="src/Recombination_event.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_recombination__event_1afc62b2f310e75ab9d7c561b10f0a0297" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Recombination_event::asymmetry</definition>
+        <argsstring></argsstring>
+        <name>asymmetry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="48" column="1" bodyfile="src/Recombination_event.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_recombination__event_1a563f07a81f811614975efb68bea17ada" prot="protected" static="no" mutable="no">
+        <type>Recomb_product</type>
+        <definition>Recomb_product Recombination_event::recomb_product</definition>
+        <argsstring></argsstring>
+        <name>recomb_product</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="49" column="1" bodyfile="src/Recombination_event.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_recombination__event_1a05e18a50a6c816a6b7677416c4f2f67d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_hotspot" kindref="compound">Hotspot</ref> const  &amp;</type>
+        <definition>Hotspot const&amp; Recombination_event::ref_hotspot</definition>
+        <argsstring></argsstring>
+        <name>ref_hotspot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="52" column="1" bodyfile="src/Recombination_event.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_recombination__event_1aff04a25d5b7907793b1239e68ca72669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Recombination_event::Recombination_event</definition>
+        <argsstring>(Hotspot const &amp;hotspot, double asymmetry, double param1, double param2, double probability_CAST, Recomb_product recomb_product)</argsstring>
+        <name>Recombination_event</name>
+        <param>
+          <type><ref refid="class_hotspot" kindref="compound">Hotspot</ref> const &amp;</type>
+          <declname>hotspot</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>asymmetry</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>param1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>param2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>probability_CAST</declname>
+        </param>
+        <param>
+          <type>Recomb_product</type>
+          <declname>recomb_product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="31" column="1" bodyfile="src/Recombination_event.cpp" bodystart="42" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_recombination__event_1a6762f4cf6e4af6feae93024863608fc6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Recombination_event::get_tract_length</definition>
+        <argsstring>() const</argsstring>
+        <name>get_tract_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="60" column="1" bodyfile="src/Recombination_event.cpp" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_recombination__event_1a2ff116f519448989cb86ab3bca3cf8a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Recombination_event::get_tract_start</definition>
+        <argsstring>() const</argsstring>
+        <name>get_tract_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="61" column="1" bodyfile="src/Recombination_event.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_recombination__event_1ac34f5d0e4e413cee6bc322c5a08e8f76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Genotype</type>
+        <definition>Genotype Recombination_event::get_giver</definition>
+        <argsstring>() const</argsstring>
+        <name>get_giver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="62" column="1" bodyfile="src/Recombination_event.cpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_recombination__event_1ae1d9eae03c24c1f42d8f5b2b4cce0960" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Recomb_product</type>
+        <definition>Recomb_product Recombination_event::get_recomb_product</definition>
+        <argsstring>() const</argsstring>
+        <name>get_recomb_product</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="63" column="1" bodyfile="src/Recombination_event.cpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_recombination__event_1a8dd08f09715314c0464c8957c91a397d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Recombination_event::get_counter</definition>
+        <argsstring>() const</argsstring>
+        <name>get_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="64" column="1" bodyfile="src/Recombination_event.cpp" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_recombination__event_1a7e9e4ee1205ba8b7617f678e512e852e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Recombination_event::print_hotspot_info</definition>
+        <argsstring>()</argsstring>
+        <name>print_hotspot_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="71" column="1" bodyfile="src/Recombination_event.cpp" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_recombination__event_1a1e2144e6c77309681613068b418ec949" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Recombination_event::choose_length</definition>
+        <argsstring>(double tract_length_mean, double tract_length_sd, Recomb_product recomb_product)</argsstring>
+        <name>choose_length</name>
+        <param>
+          <type>double</type>
+          <declname>tract_length_mean</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tract_length_sd</declname>
+        </param>
+        <param>
+          <type>Recomb_product</type>
+          <declname>recomb_product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Chooses length of the conversion tract, depending on type of event (CO or NCO), and mean and sd tract lengths for the conversion tract product.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tract_length_mean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mean tract length. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tract_length_sd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Standard error of the tract length. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>recomb_product</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: CO or NCO.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: length of the conversion tract. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="85" column="1" bodyfile="src/Recombination_event.cpp" bodystart="131" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_recombination__event_1a452bf9940c36aaf1063ffc62a06b055f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Genotype</type>
+        <definition>Genotype Recombination_event::choose_giver</definition>
+        <argsstring>(double probability)</argsstring>
+        <name>choose_giver</name>
+        <param>
+          <type>double</type>
+          <declname>probability</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Chooses the genotype, using a Bernouilli distribution with probability p of choosing CAST.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>probability</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>probability of choosing CAST. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>genotype: for the giver. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Recombination_event.h" line="99" column="1" bodyfile="src/Recombination_event.cpp" bodystart="171" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="20">
+        <label>Recombination_event</label>
+        <link refid="class_recombination__event"/>
+        <childnode refid="21" relation="usage">
+          <edgelabel>ref_hotspot</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Hotspot</label>
+        <link refid="class_hotspot"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/Recombination_event.h" line="7" column="1" bodyfile="src/Recombination_event.h" bodystart="6" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_recombination__event_1afc62b2f310e75ab9d7c561b10f0a0297" prot="protected" virt="non-virtual"><scope>Recombination_event</scope><name>asymmetry</name></member>
+      <member refid="class_recombination__event_1a452bf9940c36aaf1063ffc62a06b055f" prot="public" virt="non-virtual"><scope>Recombination_event</scope><name>choose_giver</name></member>
+      <member refid="class_recombination__event_1a1e2144e6c77309681613068b418ec949" prot="public" virt="non-virtual"><scope>Recombination_event</scope><name>choose_length</name></member>
+      <member refid="class_recombination__event_1a64e7ea43ba2651530a6cb73ef580f4b0" prot="private" virt="non-virtual"><scope>Recombination_event</scope><name>counter</name></member>
+      <member refid="class_recombination__event_1a8dd08f09715314c0464c8957c91a397d" prot="public" virt="non-virtual"><scope>Recombination_event</scope><name>get_counter</name></member>
+      <member refid="class_recombination__event_1ac34f5d0e4e413cee6bc322c5a08e8f76" prot="public" virt="non-virtual"><scope>Recombination_event</scope><name>get_giver</name></member>
+      <member refid="class_recombination__event_1ae1d9eae03c24c1f42d8f5b2b4cce0960" prot="public" virt="non-virtual"><scope>Recombination_event</scope><name>get_recomb_product</name></member>
+      <member refid="class_recombination__event_1a6762f4cf6e4af6feae93024863608fc6" prot="public" virt="non-virtual"><scope>Recombination_event</scope><name>get_tract_length</name></member>
+      <member refid="class_recombination__event_1a2ff116f519448989cb86ab3bca3cf8a8" prot="public" virt="non-virtual"><scope>Recombination_event</scope><name>get_tract_start</name></member>
+      <member refid="class_recombination__event_1a8f4442588abc4bfbdf9524d1cb075cd5" prot="protected" virt="non-virtual"><scope>Recombination_event</scope><name>giver</name></member>
+      <member refid="class_recombination__event_1a7e9e4ee1205ba8b7617f678e512e852e" prot="public" virt="non-virtual"><scope>Recombination_event</scope><name>print_hotspot_info</name></member>
+      <member refid="class_recombination__event_1a563f07a81f811614975efb68bea17ada" prot="protected" virt="non-virtual"><scope>Recombination_event</scope><name>recomb_product</name></member>
+      <member refid="class_recombination__event_1aff04a25d5b7907793b1239e68ca72669" prot="public" virt="non-virtual"><scope>Recombination_event</scope><name>Recombination_event</name></member>
+      <member refid="class_recombination__event_1a05e18a50a6c816a6b7677416c4f2f67d" prot="protected" virt="non-virtual"><scope>Recombination_event</scope><name>ref_hotspot</name></member>
+      <member refid="class_recombination__event_1a7161ea1c6f31a9b50247fb04f0794351" prot="protected" virt="non-virtual"><scope>Recombination_event</scope><name>tract_end</name></member>
+      <member refid="class_recombination__event_1a723302f94878b2cd9e36e61673dc0207" prot="protected" virt="non-virtual"><scope>Recombination_event</scope><name>tract_length</name></member>
+      <member refid="class_recombination__event_1a91c1a7cb85b376da03e5b26c765d3fde" prot="protected" virt="non-virtual"><scope>Recombination_event</scope><name>tract_start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

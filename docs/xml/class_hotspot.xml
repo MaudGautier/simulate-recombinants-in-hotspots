@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_hotspot" kind="class" language="C++" prot="public">
+    <compoundname>Hotspot</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hotspot_1aa9e44f2ce59e3c057a6a62d711f2cdfb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Hotspot::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="30" column="1" bodyfile="src/Hotspot.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hotspot_1a2726462d49a8903a1540ff4ca9f78620" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Hotspot::chr</definition>
+        <argsstring></argsstring>
+        <name>chr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="31" column="1" bodyfile="src/Hotspot.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hotspot_1a07b499b253298292fc7ab457edd6f544" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hotspot::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="32" column="1" bodyfile="src/Hotspot.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hotspot_1ab753ac00757dcb77531d87c4de848e0d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hotspot::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="33" column="1" bodyfile="src/Hotspot.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hotspot_1aed60720b5690e94b5af1dc93c82239f6" prot="private" static="no" mutable="no">
+        <type>IntVector</type>
+        <definition>IntVector Hotspot::variant_positions</definition>
+        <argsstring></argsstring>
+        <name>variant_positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="36" column="1" bodyfile="src/Hotspot.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hotspot_1a77c2b8063034cfc9ed0a5dc2652d2bf1" prot="private" static="no" mutable="no">
+        <type>StringVector</type>
+        <definition>StringVector Hotspot::B6_alleles</definition>
+        <argsstring></argsstring>
+        <name>B6_alleles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="37" column="1" bodyfile="src/Hotspot.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hotspot_1a9df778ca93520eefc60b6e4505536e8b" prot="private" static="no" mutable="no">
+        <type>StringVector</type>
+        <definition>StringVector Hotspot::CAST_alleles</definition>
+        <argsstring></argsstring>
+        <name>CAST_alleles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="38" column="1" bodyfile="src/Hotspot.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hotspot_1a9223ebd3e7ee4598d914e9a74300ea78" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hotspot::DSB</definition>
+        <argsstring></argsstring>
+        <name>DSB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="41" column="1" bodyfile="src/Hotspot.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hotspot_1a2143f67bcf5198108077e38e4b061114" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="struct_bed__line" kindref="compound">Bed_line</ref> &gt;</type>
+        <definition>vector&lt; Bed_line &gt; Hotspot::vec_frag_pos</definition>
+        <argsstring></argsstring>
+        <name>vec_frag_pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="45" column="1" bodyfile="src/Hotspot.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hotspot_1a34eac4b8bd3273feea0de74f1ca17cf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Hotspot::Hotspot</definition>
+        <argsstring>(string ID, string chr, int start, int end, string variants_file, string fragments_file, int subset_fragments_factor=1)</argsstring>
+        <name>Hotspot</name>
+        <param>
+          <type>string</type>
+          <declname>ID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>chr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>variants_file</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fragments_file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>subset_fragments_factor</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="15" column="1" bodyfile="src/Hotspot.cpp" bodystart="41" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1abb22df75679422cb7ba9840d5a291db3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Hotspot::get_DSB</definition>
+        <argsstring>() const</argsstring>
+        <name>get_DSB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="55" column="1" bodyfile="src/Hotspot.cpp" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1adee28c2c36a5a3ebec9146694170a8ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const vector&lt; <ref refid="struct_bed__line" kindref="compound">Bed_line</ref> &gt; &amp;</type>
+        <definition>const vector&lt; Bed_line &gt; &amp; Hotspot::get_coord_fragments</definition>
+        <argsstring>() const</argsstring>
+        <name>get_coord_fragments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="56" column="1" bodyfile="src/Hotspot.cpp" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1a525cc4b3004090ff348fa126f10630c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_genomic__coordinates" kindref="compound">Genomic_coordinates</ref></type>
+        <definition>Genomic_coordinates Hotspot::get_coordinates</definition>
+        <argsstring>() const</argsstring>
+        <name>get_coordinates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="57" column="1" bodyfile="src/Hotspot.cpp" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1aa2b90586a2e66acf7faeb70e15c72f45" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const IntVector &amp;</type>
+        <definition>const IntVector &amp; Hotspot::get_variants</definition>
+        <argsstring>() const</argsstring>
+        <name>get_variants</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="58" column="1" bodyfile="src/Hotspot.cpp" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1a123e0b631e0901dd7b2d78a0ffe4c04f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Hotspot::get_ID</definition>
+        <argsstring>() const</argsstring>
+        <name>get_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="59" column="1" bodyfile="src/Hotspot.cpp" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1acb44999a2ceddf2a7431d7c4493743a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Hotspot::get_name_to_write</definition>
+        <argsstring>() const</argsstring>
+        <name>get_name_to_write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="60" column="1" bodyfile="src/Hotspot.cpp" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1abb4bf2ae6bce98d6dfa1997bbceebe33" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const StringVector &amp;</type>
+        <definition>const StringVector &amp; Hotspot::get_B6_alleles</definition>
+        <argsstring>() const</argsstring>
+        <name>get_B6_alleles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="61" column="1" bodyfile="src/Hotspot.cpp" bodystart="111" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1ad2325fcf8b426a7b5e223fb7bc40cd0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const StringVector &amp;</type>
+        <definition>const StringVector &amp; Hotspot::get_CAST_alleles</definition>
+        <argsstring>() const</argsstring>
+        <name>get_CAST_alleles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="62" column="1" bodyfile="src/Hotspot.cpp" bodystart="117" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1ad054dfef62c85f695a8dbb6909bb752a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="struct_bed__line" kindref="compound">Bed_line</ref> &gt;</type>
+        <definition>vector&lt; Bed_line &gt; Hotspot::extract_fragments_coordinates</definition>
+        <argsstring>(string file_name, int subset_factor=1)</argsstring>
+        <name>extract_fragments_coordinates</name>
+        <param>
+          <type>string</type>
+          <declname>file_name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>subset_factor</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads a bed file containing fragments and puts all genomic coordinates in a vector.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the file containing all fragments </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>subset_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>factor by which the original dataset must be divided. e.g.: 3 -&gt; 1 line out of 3 will be included </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: a vector of <ref refid="struct_bed__line" kindref="compound">Bed_line</ref> (corresponding to the ID and positions of fragments intersecting that particular hotspot) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="83" column="1" bodyfile="src/Hotspot.cpp" bodystart="131" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1abadca6037200a03cde2ef1401641886d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hotspot::print_fragments</definition>
+        <argsstring>(IntVector vec_indexes)</argsstring>
+        <name>print_fragments</name>
+        <param>
+          <type>IntVector</type>
+          <declname>vec_indexes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="93" column="1" bodyfile="src/Hotspot.cpp" bodystart="150" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hotspot_1ab8ac666ae3fc8013188070eefae5e1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_list__variants" kindref="compound">List_variants</ref></type>
+        <definition>List_variants Hotspot::extract_variants</definition>
+        <argsstring>(string file_name)</argsstring>
+        <name>extract_variants</name>
+        <param>
+          <type>string</type>
+          <declname>file_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extracts variants info from file.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the file from which info must be extracted. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: <ref refid="struct_list__variants" kindref="compound">List_variants</ref> of three vectors (position, B6_alleles, CAST_alleles) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Hotspot.h" line="104" column="1" bodyfile="src/Hotspot.cpp" bodystart="160" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Hotspot.h" line="7" column="1" bodyfile="src/Hotspot.h" bodystart="6" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_hotspot_1a77c2b8063034cfc9ed0a5dc2652d2bf1" prot="private" virt="non-virtual"><scope>Hotspot</scope><name>B6_alleles</name></member>
+      <member refid="class_hotspot_1a9df778ca93520eefc60b6e4505536e8b" prot="private" virt="non-virtual"><scope>Hotspot</scope><name>CAST_alleles</name></member>
+      <member refid="class_hotspot_1a2726462d49a8903a1540ff4ca9f78620" prot="private" virt="non-virtual"><scope>Hotspot</scope><name>chr</name></member>
+      <member refid="class_hotspot_1a9223ebd3e7ee4598d914e9a74300ea78" prot="private" virt="non-virtual"><scope>Hotspot</scope><name>DSB</name></member>
+      <member refid="class_hotspot_1ab753ac00757dcb77531d87c4de848e0d" prot="private" virt="non-virtual"><scope>Hotspot</scope><name>end</name></member>
+      <member refid="class_hotspot_1ad054dfef62c85f695a8dbb6909bb752a" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>extract_fragments_coordinates</name></member>
+      <member refid="class_hotspot_1ab8ac666ae3fc8013188070eefae5e1cc" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>extract_variants</name></member>
+      <member refid="class_hotspot_1abb4bf2ae6bce98d6dfa1997bbceebe33" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>get_B6_alleles</name></member>
+      <member refid="class_hotspot_1ad2325fcf8b426a7b5e223fb7bc40cd0b" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>get_CAST_alleles</name></member>
+      <member refid="class_hotspot_1adee28c2c36a5a3ebec9146694170a8ea" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>get_coord_fragments</name></member>
+      <member refid="class_hotspot_1a525cc4b3004090ff348fa126f10630c9" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>get_coordinates</name></member>
+      <member refid="class_hotspot_1abb22df75679422cb7ba9840d5a291db3" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>get_DSB</name></member>
+      <member refid="class_hotspot_1a123e0b631e0901dd7b2d78a0ffe4c04f" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>get_ID</name></member>
+      <member refid="class_hotspot_1acb44999a2ceddf2a7431d7c4493743a5" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>get_name_to_write</name></member>
+      <member refid="class_hotspot_1aa2b90586a2e66acf7faeb70e15c72f45" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>get_variants</name></member>
+      <member refid="class_hotspot_1a34eac4b8bd3273feea0de74f1ca17cf5" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>Hotspot</name></member>
+      <member refid="class_hotspot_1aa9e44f2ce59e3c057a6a62d711f2cdfb" prot="private" virt="non-virtual"><scope>Hotspot</scope><name>ID</name></member>
+      <member refid="class_hotspot_1abadca6037200a03cde2ef1401641886d" prot="public" virt="non-virtual"><scope>Hotspot</scope><name>print_fragments</name></member>
+      <member refid="class_hotspot_1a07b499b253298292fc7ab457edd6f544" prot="private" virt="non-virtual"><scope>Hotspot</scope><name>start</name></member>
+      <member refid="class_hotspot_1aed60720b5690e94b5af1dc93c82239f6" prot="private" virt="non-virtual"><scope>Hotspot</scope><name>variant_positions</name></member>
+      <member refid="class_hotspot_1a2143f67bcf5198108077e38e4b061114" prot="private" virt="non-virtual"><scope>Hotspot</scope><name>vec_frag_pos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

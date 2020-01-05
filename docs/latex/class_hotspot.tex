@@ -1,0 +1,145 @@
+\hypertarget{class_hotspot}{}\section{Hotspot Class Reference}
+\label{class_hotspot}\index{Hotspot@{Hotspot}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_hotspot_a34eac4b8bd3273feea0de74f1ca17cf5}\label{class_hotspot_a34eac4b8bd3273feea0de74f1ca17cf5}} 
+{\bfseries Hotspot} (string ID, string chr, int start, int end, string variants\+\_\+file, string fragments\+\_\+file, int subset\+\_\+fragments\+\_\+factor=1)
+\item 
+\mbox{\Hypertarget{class_hotspot_abb22df75679422cb7ba9840d5a291db3}\label{class_hotspot_abb22df75679422cb7ba9840d5a291db3}} 
+int {\bfseries get\+\_\+\+D\+SB} () const
+\item 
+\mbox{\Hypertarget{class_hotspot_adee28c2c36a5a3ebec9146694170a8ea}\label{class_hotspot_adee28c2c36a5a3ebec9146694170a8ea}} 
+const vector$<$ \mbox{\hyperlink{struct_bed__line}{Bed\+\_\+line}} $>$ \& {\bfseries get\+\_\+coord\+\_\+fragments} () const
+\item 
+\mbox{\Hypertarget{class_hotspot_a525cc4b3004090ff348fa126f10630c9}\label{class_hotspot_a525cc4b3004090ff348fa126f10630c9}} 
+\mbox{\hyperlink{struct_genomic__coordinates}{Genomic\+\_\+coordinates}} {\bfseries get\+\_\+coordinates} () const
+\item 
+\mbox{\Hypertarget{class_hotspot_aa2b90586a2e66acf7faeb70e15c72f45}\label{class_hotspot_aa2b90586a2e66acf7faeb70e15c72f45}} 
+const Int\+Vector \& {\bfseries get\+\_\+variants} () const
+\item 
+\mbox{\Hypertarget{class_hotspot_a123e0b631e0901dd7b2d78a0ffe4c04f}\label{class_hotspot_a123e0b631e0901dd7b2d78a0ffe4c04f}} 
+string {\bfseries get\+\_\+\+ID} () const
+\item 
+\mbox{\Hypertarget{class_hotspot_acb44999a2ceddf2a7431d7c4493743a5}\label{class_hotspot_acb44999a2ceddf2a7431d7c4493743a5}} 
+string {\bfseries get\+\_\+name\+\_\+to\+\_\+write} () const
+\item 
+\mbox{\Hypertarget{class_hotspot_abb4bf2ae6bce98d6dfa1997bbceebe33}\label{class_hotspot_abb4bf2ae6bce98d6dfa1997bbceebe33}} 
+const String\+Vector \& {\bfseries get\+\_\+\+B6\+\_\+alleles} () const
+\item 
+\mbox{\Hypertarget{class_hotspot_ad2325fcf8b426a7b5e223fb7bc40cd0b}\label{class_hotspot_ad2325fcf8b426a7b5e223fb7bc40cd0b}} 
+const String\+Vector \& {\bfseries get\+\_\+\+C\+A\+S\+T\+\_\+alleles} () const
+\item 
+vector$<$ \mbox{\hyperlink{struct_bed__line}{Bed\+\_\+line}} $>$ \mbox{\hyperlink{class_hotspot_ad054dfef62c85f695a8dbb6909bb752a}{extract\+\_\+fragments\+\_\+coordinates}} (string file\+\_\+name, int subset\+\_\+factor=1)
+\item 
+\mbox{\Hypertarget{class_hotspot_abadca6037200a03cde2ef1401641886d}\label{class_hotspot_abadca6037200a03cde2ef1401641886d}} 
+void {\bfseries print\+\_\+fragments} (Int\+Vector vec\+\_\+indexes)
+\item 
+\mbox{\hyperlink{struct_list__variants}{List\+\_\+variants}} \mbox{\hyperlink{class_hotspot_ab8ac666ae3fc8013188070eefae5e1cc}{extract\+\_\+variants}} (string file\+\_\+name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file Hotspot.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_hotspot_ad054dfef62c85f695a8dbb6909bb752a}\label{class_hotspot_ad054dfef62c85f695a8dbb6909bb752a}} 
+\index{Hotspot@{Hotspot}!extract\+\_\+fragments\+\_\+coordinates@{extract\+\_\+fragments\+\_\+coordinates}}
+\index{extract\+\_\+fragments\+\_\+coordinates@{extract\+\_\+fragments\+\_\+coordinates}!Hotspot@{Hotspot}}
+\subsubsection{\texorpdfstring{extract\+\_\+fragments\+\_\+coordinates()}{extract\_fragments\_coordinates()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{struct_bed__line}{Bed\+\_\+line}} $>$ Hotspot\+::extract\+\_\+fragments\+\_\+coordinates (\begin{DoxyParamCaption}\item[{string}]{file\+\_\+name,  }\item[{int}]{subset\+\_\+factor = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+Reads a bed file containing fragments and puts all genomic coordinates in a vector.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+\_\+name} & Path to the file containing all fragments \\
+\hline
+{\em subset\+\_\+factor} & factor by which the original dataset must be divided. e.\+g.\+: 3 -\/$>$ 1 line out of 3 will be included \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: a vector of \mbox{\hyperlink{struct_bed__line}{Bed\+\_\+line}} (corresponding to the ID and positions of fragments intersecting that particular hotspot) 
+\end{DoxyReturn}
+
+
+Definition at line 131 of file Hotspot.\+cpp.
+
+
+\begin{DoxyCode}
+135 \{
+136     \textcolor{comment}{// Use previously written function}
+137     vector < Bed\_line > vect\_tmp \{ bed\_file\_to\_vector (file\_name) \};
+138 
+139     \textcolor{comment}{// Subset vector}
+140     vector < Bed\_line > vect\_out;
+141     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i \{ 0 \}; i < vect\_tmp.size(); i += subset\_factor) \{
+142         vect\_out.push\_back (vect\_tmp [i]) ;
+143     \}
+144     
+145     \textcolor{keywordflow}{return} vect\_out;
+146 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_hotspot_ab8ac666ae3fc8013188070eefae5e1cc}\label{class_hotspot_ab8ac666ae3fc8013188070eefae5e1cc}} 
+\index{Hotspot@{Hotspot}!extract\+\_\+variants@{extract\+\_\+variants}}
+\index{extract\+\_\+variants@{extract\+\_\+variants}!Hotspot@{Hotspot}}
+\subsubsection{\texorpdfstring{extract\+\_\+variants()}{extract\_variants()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_list__variants}{List\+\_\+variants}} Hotspot\+::extract\+\_\+variants (\begin{DoxyParamCaption}\item[{string}]{file\+\_\+name }\end{DoxyParamCaption})}
+
+Extracts variants info from file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+\_\+name} & name of the file from which info must be extracted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: \mbox{\hyperlink{struct_list__variants}{List\+\_\+variants}} of three vectors (position, B6\+\_\+alleles, C\+A\+S\+T\+\_\+alleles) 
+\end{DoxyReturn}
+
+
+Definition at line 160 of file Hotspot.\+cpp.
+
+
+\begin{DoxyCode}
+163 \{
+164     
+165     \textcolor{comment}{// Declare output vectors}
+166     IntVector vect\_pos;
+167     StringVector vect\_B6;
+168     StringVector vect\_CAST;
+169     
+170     \textcolor{comment}{// Read input file}
+171     ifstream file (file\_name, ios::in);
+172     \textcolor{keywordflow}{if} (file)
+173     \{
+174         \textcolor{keywordtype}{string} line;
+175         \textcolor{keywordflow}{while} (getline (file, line) ) \{
+176             \textcolor{comment}{// Extract pieces of information}
+177             StringVector vect\_line \{ 
+178                 extract\_info\_from\_line (line, 3, \textcolor{stringliteral}{"\(\backslash\)t"}) 
+179             \};
+180             
+181             \textcolor{comment}{// Increment all output vectors}
+182             vect\_pos.push\_back (static\_cast < int > (stoi (vect\_line [0])) );
+183             vect\_B6.push\_back ( (\textcolor{keywordtype}{string}) vect\_line [1] );
+184             vect\_CAST.push\_back ( (\textcolor{keywordtype}{string}) vect\_line [2] );
+185         \}
+186         \textcolor{keywordflow}{return} \{ vect\_pos , vect\_B6, vect\_CAST \};
+187     \}
+188     \textcolor{keywordflow}{else} \{
+189         cout << \textcolor{stringliteral}{"\(\backslash\)nERROR: File not found."} << endl;
+190         \textcolor{keywordflow}{throw} exception();
+191     \}
+192 \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Hotspot.\+h\item 
+src/Hotspot.\+cpp\end{DoxyCompactItemize}

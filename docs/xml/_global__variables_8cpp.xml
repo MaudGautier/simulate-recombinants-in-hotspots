@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_global__variables_8cpp" kind="file" language="C++">
+    <compoundname>Global_variables.cpp</compoundname>
+    <includes refid="_global__variables_8h" local="yes">Global_variables.h</includes>
+    <incdepgraph>
+      <node id="184">
+        <label>sys/stat.h</label>
+      </node>
+      <node id="193">
+        <label>Recombination_event.h</label>
+        <link refid="_recombination__event_8h_source"/>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>iterator</label>
+      </node>
+      <node id="195">
+        <label>Functions.h</label>
+        <link refid="_functions_8h_source"/>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>Libraries.h</label>
+        <link refid="_libraries_8h_source"/>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>cassert</label>
+      </node>
+      <node id="175">
+        <label>numeric</label>
+      </node>
+      <node id="170">
+        <label>string</label>
+      </node>
+      <node id="176">
+        <label>map</label>
+      </node>
+      <node id="169">
+        <label>fstream</label>
+      </node>
+      <node id="189">
+        <label>boost/program_options.hpp</label>
+      </node>
+      <node id="191">
+        <label>Def_types.h</label>
+        <link refid="_def__types_8h_source"/>
+      </node>
+      <node id="186">
+        <label>boost/assign/list_of.hpp</label>
+      </node>
+      <node id="183">
+        <label>random</label>
+      </node>
+      <node id="182">
+        <label>ctime</label>
+      </node>
+      <node id="188">
+        <label>boost/unordered_map.hpp</label>
+      </node>
+      <node id="178">
+        <label>vector</label>
+      </node>
+      <node id="187">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="166">
+        <label>Global_variables.h</label>
+        <link refid="_global__variables_8h_source"/>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>array</label>
+      </node>
+      <node id="185">
+        <label>time.h</label>
+      </node>
+      <node id="181">
+        <label>cstdlib</label>
+      </node>
+      <node id="194">
+        <label>Fragment.h</label>
+        <link refid="_fragment_8h_source"/>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>iostream</label>
+      </node>
+      <node id="177">
+        <label>unordered_map</label>
+      </node>
+      <node id="165">
+        <label>src/Global_variables.cpp</label>
+        <link refid="_global__variables_8cpp"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>type_traits</label>
+      </node>
+      <node id="171">
+        <label>set</label>
+      </node>
+      <node id="192">
+        <label>Hotspot.h</label>
+        <link refid="_hotspot_8h_source"/>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>algorithm</label>
+      </node>
+      <node id="190">
+        <label>Inclusions.h</label>
+        <link refid="_inclusions_8h_source"/>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_global__variables_8cpp_1aaf6ab885c6d0650cfaceed29c9312362" prot="public" static="no" mutable="no">
+        <type>StringVector</type>
+        <definition>StringVector HEADER_FRAGMENTS</definition>
+        <argsstring></argsstring>
+        <name>HEADER_FRAGMENTS</name>
+        <initializer>= {
+	&quot;#READ_ID&quot;,
+	&quot;#VARIANTS&quot;,
+	&quot;#B6_VAR&quot;,
+	&quot;#CAST_VAR&quot;,
+	&quot;CHR&quot;,
+	&quot;POSITIONS&quot;,
+	&quot;GENOTYPES&quot;,
+	&quot;MUT_TYPES&quot;,
+	&quot;QUALITIES&quot;,
+	&quot;ALLELES&quot;,
+	&quot;REF_B6_ALLELES&quot;,
+	&quot;REF_CAST_ALLELES&quot;,
+	&quot;#OVERLAP&quot;,
+	&quot;VCF_FILTER&quot;,
+	&quot;VCF_COVERAGE&quot;,
+	&quot;VCF_FREQ&quot;,
+	&quot;TARGET&quot;,
+	&quot;CHR_START_STOP&quot;,
+	&quot;SAMPLE_FILE&quot;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Global_variables.cpp" line="7" column="1" bodyfile="src/Global_variables.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_global__variables_8cpp_1a7d11e4514e5d30eae3f6e3bda6edd768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mt19937</type>
+        <definition>mt19937 GENERATOR</definition>
+        <argsstring>(time(NULL))</argsstring>
+        <name>GENERATOR</name>
+        <param>
+          <type>time(NULL)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Global_variables.cpp" line="5" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;Global_variables.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//default_random_engine<sp/>GENERATOR;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//mt19937<sp/>GENERATOR(1);<sp/>//<sp/>SEED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">mt19937<sp/>GENERATOR(time(NULL));<sp/></highlight><highlight class="comment">//<sp/>RANDOM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">StringVector<sp/>HEADER_FRAGMENTS<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;#READ_ID&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;#VARIANTS&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;#B6_VAR&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;#CAST_VAR&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;CHR&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;POSITIONS&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;GENOTYPES&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;MUT_TYPES&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;QUALITIES&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ALLELES&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;REF_B6_ALLELES&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;REF_CAST_ALLELES&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;#OVERLAP&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;VCF_FILTER&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;VCF_COVERAGE&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;VCF_FREQ&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;TARGET&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;CHR_START_STOP&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;SAMPLE_FILE&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/Global_variables.cpp"/>
+  </compounddef>
+</doxygen>

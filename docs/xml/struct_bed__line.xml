@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_bed__line" kind="struct" language="C++" prot="public">
+    <compoundname>Bed_line</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_bed__line_1a6929a5165ce7483f033ea33477cc5045" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Bed_line::chrom</definition>
+        <argsstring></argsstring>
+        <name>chrom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="62" column="1" bodyfile="src/Def_types.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bed__line_1a0cd4bf4cb13f713b34bcc6d89d93b5b2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Bed_line::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="63" column="1" bodyfile="src/Def_types.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bed__line_1ab51863f0a6fcd60056d0a00756ce47c0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Bed_line::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="64" column="1" bodyfile="src/Def_types.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bed__line_1a5ce608d60345769ff0776abf47854d3a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Bed_line::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Def_types.h" line="65" column="1" bodyfile="src/Def_types.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Def_types.h" line="61" column="1" bodyfile="src/Def_types.h" bodystart="61" bodyend="66"/>
+    <listofallmembers>
+      <member refid="struct_bed__line_1a6929a5165ce7483f033ea33477cc5045" prot="public" virt="non-virtual"><scope>Bed_line</scope><name>chrom</name></member>
+      <member refid="struct_bed__line_1ab51863f0a6fcd60056d0a00756ce47c0" prot="public" virt="non-virtual"><scope>Bed_line</scope><name>end</name></member>
+      <member refid="struct_bed__line_1a5ce608d60345769ff0776abf47854d3a" prot="public" virt="non-virtual"><scope>Bed_line</scope><name>ID</name></member>
+      <member refid="struct_bed__line_1a0cd4bf4cb13f713b34bcc6d89d93b5b2" prot="public" virt="non-virtual"><scope>Bed_line</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
