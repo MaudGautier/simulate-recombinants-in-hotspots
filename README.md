@@ -74,5 +74,5 @@ To run the simulator, use the following command line:
 Documentation
 =============
 
-The documentation for this project is available here.
+The documentation for this project is available [here](http://gnomics.io/simulate-recombinants-in-hotspots/html/index.html).
 
